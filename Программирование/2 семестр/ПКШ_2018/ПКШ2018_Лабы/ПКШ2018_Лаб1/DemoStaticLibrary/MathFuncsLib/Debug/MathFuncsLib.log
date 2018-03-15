@@ -1,0 +1,13 @@
+﻿Построение начато 25.01.2018 17:00:35.
+     1>Проект "C:\Users\Игорь\Documents\ПКШ2017\Лекции18\ЛР_1\DemoStaticLibrary\MathFuncsLib\MathFuncsLib.vcxproj" в узле 2 (целевые объекты Build).
+     1>ClCompile:
+         C:\Program Files\Microsoft Visual Studio 11.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D WIN32 /D _DEBUG /D _LIB /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc110.pdb" /Gd /TP /analyze- /errorReport:prompt MathFuncsLib.cpp
+         MathFuncsLib.cpp
+       Lib:
+         C:\Program Files\Microsoft Visual Studio 11.0\VC\bin\Lib.exe /OUT:"C:\Users\Игорь\Documents\ПКШ2017\Лекции18\ЛР_1\DemoStaticLibrary\Debug\MathFuncsLib.lib" /NOLOGO Debug\MathFuncsLib.obj
+         MathFuncsLib.vcxproj -> C:\Users\Игорь\Documents\ПКШ2017\Лекции18\ЛР_1\DemoStaticLibrary\Debug\MathFuncsLib.lib
+     1>Построение проекта "C:\Users\Игорь\Documents\ПКШ2017\Лекции18\ЛР_1\DemoStaticLibrary\MathFuncsLib\MathFuncsLib.vcxproj" завершено (целевые объекты Build).
+
+Построение успешно завершено.
+
+Затраченное время: 00:00:00.82

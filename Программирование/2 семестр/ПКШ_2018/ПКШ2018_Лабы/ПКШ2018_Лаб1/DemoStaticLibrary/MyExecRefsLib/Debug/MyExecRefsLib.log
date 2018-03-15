@@ -1,0 +1,11 @@
+﻿Построение начато 25.01.2018 17:00:36.
+     1>Проект "C:\Users\Игорь\Documents\ПКШ2017\Лекции18\ЛР_1\DemoStaticLibrary\MyExecRefsLib\MyExecRefsLib.vcxproj" в узле 2 (целевые объекты Build).
+     1>ClCompile:
+         C:\Program Files\Microsoft Visual Studio 11.0\VC\bin\CL.exe /c /I"C:\Users\Игорь\Documents\ПКШ2017\Лекции18\ЛР_1\StaticLibrary\MathFuncsLib" /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc110.pdb" /Gd /TP /analyze- /errorReport:prompt MyExecRefsLib.cpp
+         MyExecRefsLib.cpp
+     1>c:\users\игорь\documents\пкш2017\лекции18\лр_1\demostaticlibrary\myexecrefslib\myexecrefslib.cpp(4): fatal error C1083: Не удается открыть файл включение: MathFuncsLib.h: No such file or directory
+     1>Построение проекта "C:\Users\Игорь\Documents\ПКШ2017\Лекции18\ЛР_1\DemoStaticLibrary\MyExecRefsLib\MyExecRefsLib.vcxproj" завершено (целевые объекты Build) с ошибкой.
+
+Сбой построения.
+
+Затраченное время: 00:00:01.14

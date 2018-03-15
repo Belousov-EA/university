@@ -1,0 +1,14 @@
+﻿Построение начато 26.01.2018 13:48:06.
+     1>Проект "C:\Users\Игорь\Documents\ПКШ2017\Лекции18\ЛР_1\MyExecRefsLib_1\MyExecRefsLib_1\MyExecRefsLib_1.vcxproj" в узле 2 (целевые объекты Build).
+     1>ClCompile:
+         C:\Program Files\Microsoft Visual Studio 11.0\VC\bin\CL.exe /c /I"C:\Users\Игорь\Documents\ПКШ2017\Лекции18\ЛР_1\DemoStaticLibrary\MathFuncsLib" /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc110.pdb" /Gd /TP /analyze- /errorReport:prompt MyExecRefsLib.cpp
+         MyExecRefsLib.cpp
+       Link:
+         C:\Program Files\Microsoft Visual Studio 11.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\Игорь\Documents\ПКШ2017\Лекции18\ЛР_1\MyExecRefsLib_1\Debug\MyExecRefsLib_1.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:\Users\Игорь\Documents\ПКШ2017\Лекции18\ЛР_1\MyExecRefsLib_1\Debug\MyExecRefsLib_1.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\Игорь\Documents\ПКШ2017\Лекции18\ЛР_1\MyExecRefsLib_1\Debug\MyExecRefsLib_1.lib" /MACHINE:X86 Debug\MyExecRefsLib.obj
+         MathFuncsLib.lib
+         MyExecRefsLib_1.vcxproj -> C:\Users\Игорь\Documents\ПКШ2017\Лекции18\ЛР_1\MyExecRefsLib_1\Debug\MyExecRefsLib_1.exe
+     1>Построение проекта "C:\Users\Игорь\Documents\ПКШ2017\Лекции18\ЛР_1\MyExecRefsLib_1\MyExecRefsLib_1\MyExecRefsLib_1.vcxproj" завершено (целевые объекты Build).
+
+Построение успешно завершено.
+
+Затраченное время: 00:00:02.29
