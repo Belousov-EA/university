@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.design.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res-auto" app:id="@+id/main_content" app:fitsSystemWindows="true" app:layout_width="match_parent" app:layout_height="match_parent">
+    <android.support.design.widget.AppBarLayout app:theme="@style/AppTheme_AppBarOverlay" app:id="@+id/appbar" app:paddingTop="@dimen/appbar_padding_top" app:layout_width="match_parent" app:layout_height="wrap_content">
+        <android.support.design.widget.TabLayout app:id="@+id/tabs" app:layout_width="match_parent" app:layout_height="UNKNOWN_DATA_0x3201" />
+    </android.support.design.widget.AppBarLayout>
+    <android.support.v4.view.ViewPager app:id="@+id/container" app:layout_width="match_parent" app:layout_height="match_parent" app:layout_behavior="@string/appbar_scrolling_view_behavior" />
+</android.support.design.widget.CoordinatorLayout>

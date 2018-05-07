@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res-auto" map:background="@color/main_backgroud" map:layout_width="match_parent" map:layout_height="match_parent">
+    <fragment map:name="com.google.android.gms.maps.SupportMapFragment" map:id="@+id/map" map:layout_width="match_parent" map:layout_height="match_parent" map:layout_weight="1.0" map:uiZoomControls="false" />
+    <LinearLayout map:orientation="vertical" map:background="#77666666" map:padding="10dp" map:layout_width="match_parent" map:layout_height="wrap_content" map:layout_marginLeft="15dp" map:layout_marginTop="25dp" map:layout_marginRight="15dp" map:layout_marginStart="15dp" map:layout_marginEnd="15dp">
+        <TextView map:textSize="8pt" map:textColor="#fff" map:gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" map:id="@+id/header" map:layout_width="match_parent" map:layout_height="wrap_content" map:text="Wellness" />
+        <TextView map:textSize="10pt" map:textColor="#fff" map:gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" map:id="@id/date" map:layout_width="match_parent" map:layout_height="wrap_content" map:layout_marginTop="10dp" map:text="Вчера сегодня и завтра" />
+        <TextView map:textColor="#fff" map:id="@+id/place" map:layout_width="match_parent" map:layout_height="wrap_content" map:layout_marginTop="20dp" map:text="Москва, парк Измайлово" />
+        <TextView map:textColor="#fff" map:layout_width="match_parent" map:layout_height="wrap_content" map:layout_marginTop="15dp" map:text="Как добраться:" />
+        <TextView map:textColor="#fff" map:id="@+id/coordinates" map:layout_width="match_parent" map:layout_height="wrap_content" map:layout_marginTop="5dp" map:text="1324567" />
+    </LinearLayout>
+</FrameLayout>
