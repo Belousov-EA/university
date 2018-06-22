@@ -1,0 +1,33 @@
+﻿Построение начато 15.03.2018 13:51:39.
+     1>Проект "C:\Users\Игорь\Documents\ПКШ2017\Лекции18\ПКШ_2018\ПКШ2018_Лекции\ПКШ2018_Л5\StackTemplate\StackTemplate\StackTemplate.vcxproj" в узле 2 (целевые объекты Build).
+     1>ClCompile:
+         C:\Program Files\Microsoft Visual Studio 11.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc110.pdb" /Gd /TP /analyze- /errorReport:prompt TStack2Test.cpp
+         TStack2Test.cpp
+     1>c:\users\игорь\documents\пкш2017\лекции18\пкш_2018\пкш2018_лекции\пкш2018_л5\stacktemplate\stacktemplate\tstack2.h(43): warning C4800: TStack2<T>::Link *: принудительно задано логическое значение "true" или "false" (предупреждение о производительности)
+                 with
+                 [
+                     T=std::string
+                 ]
+                 c:\users\игорь\documents\пкш2017\лекции18\пкш_2018\пкш2018_лекции\пкш2018_л5\stacktemplate\stacktemplate\tstack2.h(38): при компиляции функции-члена "bool TStack2<T>::iterator::operator ++(void)" класса шаблон
+                 with
+                 [
+                     T=std::string
+                 ]
+                 c:\users\игорь\documents\пкш2017\лекции18\пкш_2018\пкш2018_лекции\пкш2018_л5\stacktemplate\stacktemplate\tstack2.h(46): см. ссылку на создание экземпляров функции шаблон при компиляции "bool TStack2<T>::iterator::operator ++(void)"
+                 with
+                 [
+                     T=std::string
+                 ]
+                 c:\users\игорь\documents\пкш2017\лекции18\пкш_2018\пкш2018_лекции\пкш2018_л5\stacktemplate\stacktemplate\tstack2test.cpp(23): см. ссылку на создание экземпляров класса шаблон при компиляции "TStack2<T>::iterator"
+                 with
+                 [
+                     T=std::string
+                 ]
+       Link:
+         C:\Program Files\Microsoft Visual Studio 11.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\Игорь\Documents\ПКШ2017\Лекции18\ПКШ_2018\ПКШ2018_Лекции\ПКШ2018_Л5\StackTemplate\Debug\StackTemplate.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:\Users\Игорь\Documents\ПКШ2017\Лекции18\ПКШ_2018\ПКШ2018_Лекции\ПКШ2018_Л5\StackTemplate\Debug\StackTemplate.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\Игорь\Documents\ПКШ2017\Лекции18\ПКШ_2018\ПКШ2018_Лекции\ПКШ2018_Л5\StackTemplate\Debug\StackTemplate.lib" /MACHINE:X86 Debug\TStack2Test.obj
+         StackTemplate.vcxproj -> C:\Users\Игорь\Documents\ПКШ2017\Лекции18\ПКШ_2018\ПКШ2018_Лекции\ПКШ2018_Л5\StackTemplate\Debug\StackTemplate.exe
+     1>Построение проекта "C:\Users\Игорь\Documents\ПКШ2017\Лекции18\ПКШ_2018\ПКШ2018_Лекции\ПКШ2018_Л5\StackTemplate\StackTemplate\StackTemplate.vcxproj" завершено (целевые объекты Build).
+
+Построение успешно завершено.
+
+Затраченное время: 00:00:06.05

@@ -1,0 +1,14 @@
+class T<class Base1> * constructor
+class T<class Member1> * constructor
+class T<class Member2> * constructor
+Derived1 constructor
+class T<class Member3> * constructor
+class T<class Member4> * constructor
+Derived2 constructor
+Derived2 destructor
+class T<class Member4> * destructor
+class T<class Member3> * destructor
+ Derived1 destructor
+class T<class Member2> * destructor
+class T<class Member1> * destructor
+class T<class Base1> * destructor

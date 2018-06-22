@@ -90,7 +90,7 @@ class DBTableTxt{
 		DBTableTxt(string tabName);
 		DBTableTxt(string tabName,Header hdr,string primKey);
 		const char* TypeName(DBType type);
-		~DBTableTxt(){}
+		~DBTableTxt();
 		vector<int> IndexOfRecord(void* keyValue,string keyColumnName);
  		string valueToString(Row& row,string columnName);
 		void ReadDBTable(string tabName);//tabName=path+tableName
@@ -119,20 +119,15 @@ class DBTableTxt{
 		friend void ReadDBTable1(DBTableTxt& tab,string fileName);//fileName=path+tableName
 		friend void ReadDBTable2(DBTableTxt& tab,string fileName);//fileName=path+tableName
 		friend void ReadDBTable3(DBTableTxt& tab,string fileName);//fileName=path+tableName
-		friend void ReadDBTable4(DBTableTxt& tab,string fileName);//fileName=path+tableName
-		friend void ReadDBTable5(DBTableTxt& tab,string fileName);//fileName=path+tableName
-		friend void ReadDBTable6(DBTableTxt& tab,string fileName);//fileName=path+tableName
-		friend void ReadDBTable7(DBTableTxt& tab,string fileName);//fileName=path+tableName
-		friend void ReadDBTable8(DBTableTxt& tab,string fileName);//fileName=path+tableName
+		friend void ReadDBTableBin1(DBTableTxt& tab,string fileName);//fileName=path+tableName
+		friend void WriteDBTable1(DBTableTxt& tab,string fileName);//fileName=path+tableName
+		friend void WriteDBTable2(DBTableTxt& tab,string fileName);//fileName=path+tableName
+		friend void WriteDBTable3(DBTableTxt& tab,string fileName);//fileName=path+tableName
+		friend void WriteDBTableBin1(DBTableTxt& tab,string fileName);//fileName=path+tableName
 		friend void PrintTable1(DBTableTxt& tab,int screenWidth);//fileName=path+tableName
 		friend void PrintTable2(DBTableTxt& tab,int screenWidth);//fileName=path+tableName
 		friend void PrintTable3(DBTableTxt& tab,int screenWidth);//fileName=path+tableName
-		friend void PrintTable4(DBTableTxt& tab,int screenWidth);//fileName=path+tableName
-		friend void PrintTable5(DBTableTxt& tab,int screenWidth);//fileName=path+tableName
-		friend void PrintTable6(DBTableTxt& tab,int screenWidth);//fileName=path+tableName
-		friend void PrintTable7(DBTableTxt& tab,int screenWidth);//fileName=path+tableName
-		friend void PrintTable8(DBTableTxt& tab,int screenWidth);//fileName=path+tableName
-  };
+};
 //======================== класс DBTableSet =====================
 class DBTableSet
 {

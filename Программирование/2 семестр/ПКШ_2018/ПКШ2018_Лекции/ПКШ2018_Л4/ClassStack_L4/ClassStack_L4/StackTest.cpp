@@ -20,8 +20,8 @@ int main() {
 	while((s = (string*)textlines.pop()) != 0) {
 		 cout << *s << endl;
 		 delete s;
-		}//вызов деструктора для Stack textlines
-	}
+		}
+	}//вызов деструктора для Stack textlines
 	system("pause");
 	return 0;
 } 

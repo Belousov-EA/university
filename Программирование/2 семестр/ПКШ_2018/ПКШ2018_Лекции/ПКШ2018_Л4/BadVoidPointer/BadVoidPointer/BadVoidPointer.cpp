@@ -8,22 +8,25 @@ class Object {
 	const char id; //идентификатор объекта
 public: 
 	Object(int sz, char c) : size(sz), id(c) {
-			data = new char[size];
-			cout << "Конструктор объекта " << id << 
-					".  size = " << size << endl; 
+		cout << "Конструктор объекта " << id << 
+					".  size = " << size << endl;
+		data = new char[size];
+			 
 		}
-		~Object() { 
-			cout << "Деструктор объекта " << id << endl;
+	virtual	~Object() { 
+		cout << "Деструктор объекта " << id << endl;
 			delete []data; // ОК. просто освобождаем память. 
 			// вызов деструктора для char не нужен. 
+			
 		} 
 };
 int main() { 
-	system("chcp 1251 >nul");
-	Object* a = new Object(40, 'a');
+	system("chcp 1251 >nul");	
+	Object *a = new Object(40, 'a');	
 	delete a;
-	void* b = new Object(40, 'b' );
-	delete b;
-	system("pause");
+	void* b = new Object(40, 'b');
+	//delete b;
+	delete (Object*)b;
+ 	system("pause");
 	return 0;
  } 
