@@ -1,0 +1,5 @@
+D:\root\yura\institute\!!!_internet\пособие_2015\!!!__КОРРЕКТИРОВКА_2017\!__ДЛЯ_СДАЧИ\ДИСК\примеры\12\Files\Files\bin\Debug\Files.exe.config
+D:\root\yura\institute\!!!_internet\пособие_2015\!!!__КОРРЕКТИРОВКА_2017\!__ДЛЯ_СДАЧИ\ДИСК\примеры\12\Files\Files\bin\Debug\Files.exe
+D:\root\yura\institute\!!!_internet\пособие_2015\!!!__КОРРЕКТИРОВКА_2017\!__ДЛЯ_СДАЧИ\ДИСК\примеры\12\Files\Files\bin\Debug\Files.pdb
+D:\root\yura\institute\!!!_internet\пособие_2015\!!!__КОРРЕКТИРОВКА_2017\!__ДЛЯ_СДАЧИ\ДИСК\примеры\12\Files\Files\obj\Debug\Files.exe
+D:\root\yura\institute\!!!_internet\пособие_2015\!!!__КОРРЕКТИРОВКА_2017\!__ДЛЯ_СДАЧИ\ДИСК\примеры\12\Files\Files\obj\Debug\Files.pdb

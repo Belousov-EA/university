@@ -1,0 +1,6 @@
+D:\root\yura\institute\!!!_internet\пособие_2015\!!!__КОРРЕКТИРОВКА_2017\!__ДЛЯ_СДАЧИ\ДИСК\примеры\08\Delegates\Delegates\bin\Debug\Delegates.exe.config
+D:\root\yura\institute\!!!_internet\пособие_2015\!!!__КОРРЕКТИРОВКА_2017\!__ДЛЯ_СДАЧИ\ДИСК\примеры\08\Delegates\Delegates\bin\Debug\Delegates.exe
+D:\root\yura\institute\!!!_internet\пособие_2015\!!!__КОРРЕКТИРОВКА_2017\!__ДЛЯ_СДАЧИ\ДИСК\примеры\08\Delegates\Delegates\bin\Debug\Delegates.pdb
+D:\root\yura\institute\!!!_internet\пособие_2015\!!!__КОРРЕКТИРОВКА_2017\!__ДЛЯ_СДАЧИ\ДИСК\примеры\08\Delegates\Delegates\obj\Debug\Delegates.csprojResolveAssemblyReference.cache
+D:\root\yura\institute\!!!_internet\пособие_2015\!!!__КОРРЕКТИРОВКА_2017\!__ДЛЯ_СДАЧИ\ДИСК\примеры\08\Delegates\Delegates\obj\Debug\Delegates.exe
+D:\root\yura\institute\!!!_internet\пособие_2015\!!!__КОРРЕКТИРОВКА_2017\!__ДЛЯ_СДАЧИ\ДИСК\примеры\08\Delegates\Delegates\obj\Debug\Delegates.pdb

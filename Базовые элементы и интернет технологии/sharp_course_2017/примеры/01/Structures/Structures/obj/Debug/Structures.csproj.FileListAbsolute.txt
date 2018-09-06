@@ -1,0 +1,6 @@
+D:\root\yura\institute\!!!_internet\пособие_2015\!!!__КОРРЕКТИРОВКА_2017\!__ДЛЯ_СДАЧИ\ДИСК\примеры\01\Structures\Structures\bin\Debug\Structures.exe.config
+D:\root\yura\institute\!!!_internet\пособие_2015\!!!__КОРРЕКТИРОВКА_2017\!__ДЛЯ_СДАЧИ\ДИСК\примеры\01\Structures\Structures\bin\Debug\Structures.exe
+D:\root\yura\institute\!!!_internet\пособие_2015\!!!__КОРРЕКТИРОВКА_2017\!__ДЛЯ_СДАЧИ\ДИСК\примеры\01\Structures\Structures\bin\Debug\Structures.pdb
+D:\root\yura\institute\!!!_internet\пособие_2015\!!!__КОРРЕКТИРОВКА_2017\!__ДЛЯ_СДАЧИ\ДИСК\примеры\01\Structures\Structures\obj\Debug\Structures.csprojResolveAssemblyReference.cache
+D:\root\yura\institute\!!!_internet\пособие_2015\!!!__КОРРЕКТИРОВКА_2017\!__ДЛЯ_СДАЧИ\ДИСК\примеры\01\Structures\Structures\obj\Debug\Structures.exe
+D:\root\yura\institute\!!!_internet\пособие_2015\!!!__КОРРЕКТИРОВКА_2017\!__ДЛЯ_СДАЧИ\ДИСК\примеры\01\Structures\Structures\obj\Debug\Structures.pdb

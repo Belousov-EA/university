@@ -1,0 +1,6 @@
+D:\root\yura\institute\!!!_internet\пособие_2015\!!!__КОРРЕКТИРОВКА_2017\!__ДЛЯ_СДАЧИ\ДИСК\примеры\14\Reflection\Reflection\bin\Debug\Reflection.exe.config
+D:\root\yura\institute\!!!_internet\пособие_2015\!!!__КОРРЕКТИРОВКА_2017\!__ДЛЯ_СДАЧИ\ДИСК\примеры\14\Reflection\Reflection\bin\Debug\Reflection.exe
+D:\root\yura\institute\!!!_internet\пособие_2015\!!!__КОРРЕКТИРОВКА_2017\!__ДЛЯ_СДАЧИ\ДИСК\примеры\14\Reflection\Reflection\bin\Debug\Reflection.pdb
+D:\root\yura\institute\!!!_internet\пособие_2015\!!!__КОРРЕКТИРОВКА_2017\!__ДЛЯ_СДАЧИ\ДИСК\примеры\14\Reflection\Reflection\obj\Debug\Reflection.exe
+D:\root\yura\institute\!!!_internet\пособие_2015\!!!__КОРРЕКТИРОВКА_2017\!__ДЛЯ_СДАЧИ\ДИСК\примеры\14\Reflection\Reflection\obj\Debug\Reflection.pdb
+D:\root\yura\institute\!!!_internet\пособие_2015\!!!__КОРРЕКТИРОВКА_2017\!__ДЛЯ_СДАЧИ\ДИСК\примеры\14\Reflection\Reflection\obj\Debug\Reflection.csprojResolveAssemblyReference.cache

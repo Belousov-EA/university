@@ -1,0 +1,10 @@
+D:\root\yura\institute\2013\семестр_осень\БКИТ\sharp_homework\sharp\WindowsFormsFiles_homework\obj\x86\Debug\WindowsFormsFiles.exe
+D:\root\yura\institute\2013\семестр_осень\БКИТ\sharp_homework\sharp\WindowsFormsFiles_homework\obj\x86\Debug\WindowsFormsFiles.pdb
+D:\root\yura\institute\2013\семестр_осень\БКИТ\sharp_homework\sharp\WindowsFormsFiles_homework\bin\Debug\WindowsFormsFiles.exe
+D:\root\yura\institute\2013\семестр_осень\БКИТ\sharp_homework\sharp\WindowsFormsFiles_homework\bin\Debug\WindowsFormsFiles.pdb
+D:\root\yura\institute\2013\семестр_осень\БКИТ\sharp_homework\sharp\WindowsFormsFiles_homework\bin\Debug\EditDistanceProject.dll
+D:\root\yura\institute\2013\семестр_осень\БКИТ\sharp_homework\sharp\WindowsFormsFiles_homework\bin\Debug\EditDistanceProject.pdb
+D:\root\yura\institute\2013\семестр_осень\БКИТ\sharp_homework\sharp\WindowsFormsFiles_homework\obj\x86\Debug\WindowsFormsFiles_homework.csprojResolveAssemblyReference.cache
+D:\root\yura\institute\2013\семестр_осень\БКИТ\sharp_homework\sharp\WindowsFormsFiles_homework\obj\x86\Debug\WindowsFormsFiles.Form1.resources
+D:\root\yura\institute\2013\семестр_осень\БКИТ\sharp_homework\sharp\WindowsFormsFiles_homework\obj\x86\Debug\WindowsFormsFiles.Properties.Resources.resources
+D:\root\yura\institute\2013\семестр_осень\БКИТ\sharp_homework\sharp\WindowsFormsFiles_homework\obj\x86\Debug\WindowsFormsFiles_homework.csproj.GenerateResource.Cache

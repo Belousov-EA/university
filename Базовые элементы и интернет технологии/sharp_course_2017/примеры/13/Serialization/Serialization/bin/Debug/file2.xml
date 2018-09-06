@@ -1,0 +1,6 @@
+<?xml version="1.0"?>
+<DataXml1 xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <int1>3333</int1>
+  <double1>333.33</double1>
+  <str1>строка1 xml</str1>
+</DataXml1>

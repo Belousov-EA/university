@@ -1,0 +1,12 @@
+D:\root\yura\institute\!!!_internet\!_sharp\sharp\sharp\SimpleListProject\bin\Debug\SimpleListProject.exe
+D:\root\yura\institute\!!!_internet\!_sharp\sharp\sharp\SimpleListProject\bin\Debug\SimpleListProject.pdb
+D:\root\yura\institute\!!!_internet\!_sharp\sharp\sharp\SimpleListProject\obj\x86\Debug\SimpleListProject.exe
+D:\root\yura\institute\!!!_internet\!_sharp\sharp\sharp\SimpleListProject\obj\x86\Debug\SimpleListProject.pdb
+D:\root\yura\institute\!!!_internet\!_sharp_2013\sharp\SimpleListProject\bin\Debug\SimpleListProject.exe
+D:\root\yura\institute\!!!_internet\!_sharp_2013\sharp\SimpleListProject\bin\Debug\SimpleListProject.pdb
+D:\root\yura\institute\!!!_internet\!_sharp_2013\sharp\SimpleListProject\obj\x86\Debug\SimpleListProject.exe
+D:\root\yura\institute\!!!_internet\!_sharp_2013\sharp\SimpleListProject\obj\x86\Debug\SimpleListProject.pdb
+D:\root\yura\institute\2013\семестр_осень\БКИТ\sharp_homework\sharp\SimpleListProject\bin\Debug\SimpleListProject.exe
+D:\root\yura\institute\2013\семестр_осень\БКИТ\sharp_homework\sharp\SimpleListProject\bin\Debug\SimpleListProject.pdb
+D:\root\yura\institute\2013\семестр_осень\БКИТ\sharp_homework\sharp\SimpleListProject\obj\x86\Debug\SimpleListProject.exe
+D:\root\yura\institute\2013\семестр_осень\БКИТ\sharp_homework\sharp\SimpleListProject\obj\x86\Debug\SimpleListProject.pdb

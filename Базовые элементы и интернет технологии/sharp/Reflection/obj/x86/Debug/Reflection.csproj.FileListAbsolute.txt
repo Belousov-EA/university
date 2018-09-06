@@ -1,0 +1,12 @@
+D:\root\yura\institute\!!!_internet\!_sharp\sharp\sharp\Reflection\bin\Debug\Reflection.exe
+D:\root\yura\institute\!!!_internet\!_sharp\sharp\sharp\Reflection\bin\Debug\Reflection.pdb
+D:\root\yura\institute\!!!_internet\!_sharp\sharp\sharp\Reflection\obj\x86\Debug\Reflection.exe
+D:\root\yura\institute\!!!_internet\!_sharp\sharp\sharp\Reflection\obj\x86\Debug\Reflection.pdb
+D:\root\yura\institute\!!!_internet\!_sharp_2013\sharp\Reflection\bin\Debug\Reflection.exe
+D:\root\yura\institute\!!!_internet\!_sharp_2013\sharp\Reflection\bin\Debug\Reflection.pdb
+D:\root\yura\institute\!!!_internet\!_sharp_2013\sharp\Reflection\obj\x86\Debug\Reflection.exe
+D:\root\yura\institute\!!!_internet\!_sharp_2013\sharp\Reflection\obj\x86\Debug\Reflection.pdb
+D:\root\yura\institute\2013\семестр_осень\БКИТ\sharp_homework\sharp\Reflection\bin\Debug\Reflection.exe
+D:\root\yura\institute\2013\семестр_осень\БКИТ\sharp_homework\sharp\Reflection\bin\Debug\Reflection.pdb
+D:\root\yura\institute\2013\семестр_осень\БКИТ\sharp_homework\sharp\Reflection\obj\x86\Debug\Reflection.exe
+D:\root\yura\institute\2013\семестр_осень\БКИТ\sharp_homework\sharp\Reflection\obj\x86\Debug\Reflection.pdb

@@ -1,0 +1,12 @@
+D:\root\yura\institute\!!!_internet\!_sharp\sharp\sharp\SparseMatrix\bin\Debug\SparseMatrix.exe
+D:\root\yura\institute\!!!_internet\!_sharp\sharp\sharp\SparseMatrix\bin\Debug\SparseMatrix.pdb
+D:\root\yura\institute\!!!_internet\!_sharp\sharp\sharp\SparseMatrix\obj\x86\Debug\SparseMatrix.exe
+D:\root\yura\institute\!!!_internet\!_sharp\sharp\sharp\SparseMatrix\obj\x86\Debug\SparseMatrix.pdb
+D:\root\yura\institute\!!!_internet\!_sharp_2013\sharp\SparseMatrix\bin\Debug\SparseMatrix.exe
+D:\root\yura\institute\!!!_internet\!_sharp_2013\sharp\SparseMatrix\bin\Debug\SparseMatrix.pdb
+D:\root\yura\institute\!!!_internet\!_sharp_2013\sharp\SparseMatrix\obj\x86\Debug\SparseMatrix.exe
+D:\root\yura\institute\!!!_internet\!_sharp_2013\sharp\SparseMatrix\obj\x86\Debug\SparseMatrix.pdb
+D:\root\yura\institute\2013\семестр_осень\БКИТ\sharp_homework\sharp\SparseMatrix\bin\Debug\SparseMatrix.exe
+D:\root\yura\institute\2013\семестр_осень\БКИТ\sharp_homework\sharp\SparseMatrix\bin\Debug\SparseMatrix.pdb
+D:\root\yura\institute\2013\семестр_осень\БКИТ\sharp_homework\sharp\SparseMatrix\obj\x86\Debug\SparseMatrix.exe
+D:\root\yura\institute\2013\семестр_осень\БКИТ\sharp_homework\sharp\SparseMatrix\obj\x86\Debug\SparseMatrix.pdb

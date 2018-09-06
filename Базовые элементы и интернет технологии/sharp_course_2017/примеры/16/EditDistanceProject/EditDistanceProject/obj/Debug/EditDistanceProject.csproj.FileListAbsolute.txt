@@ -1,0 +1,5 @@
+D:\root\yura\institute\!!!_internet\пособие_2015\!!!__КОРРЕКТИРОВКА_2017\!__ДЛЯ_СДАЧИ\ДИСК\примеры\16\EditDistanceProject\EditDistanceProject\bin\Debug\EditDistanceProject.exe.config
+D:\root\yura\institute\!!!_internet\пособие_2015\!!!__КОРРЕКТИРОВКА_2017\!__ДЛЯ_СДАЧИ\ДИСК\примеры\16\EditDistanceProject\EditDistanceProject\bin\Debug\EditDistanceProject.exe
+D:\root\yura\institute\!!!_internet\пособие_2015\!!!__КОРРЕКТИРОВКА_2017\!__ДЛЯ_СДАЧИ\ДИСК\примеры\16\EditDistanceProject\EditDistanceProject\bin\Debug\EditDistanceProject.pdb
+D:\root\yura\institute\!!!_internet\пособие_2015\!!!__КОРРЕКТИРОВКА_2017\!__ДЛЯ_СДАЧИ\ДИСК\примеры\16\EditDistanceProject\EditDistanceProject\obj\Debug\EditDistanceProject.exe
+D:\root\yura\institute\!!!_internet\пособие_2015\!!!__КОРРЕКТИРОВКА_2017\!__ДЛЯ_СДАЧИ\ДИСК\примеры\16\EditDistanceProject\EditDistanceProject\obj\Debug\EditDistanceProject.pdb

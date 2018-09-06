@@ -1,0 +1,13 @@
+D:\root\yura\institute\!!!_internet\!_sharp\sharp\sharp\EditDistanceProject\bin\Debug\EditDistanceProject.dll
+D:\root\yura\institute\!!!_internet\!_sharp\sharp\sharp\EditDistanceProject\bin\Debug\EditDistanceProject.pdb
+D:\root\yura\institute\!!!_internet\!_sharp\sharp\sharp\EditDistanceProject\obj\Debug\EditDistanceProject.dll
+D:\root\yura\institute\!!!_internet\!_sharp\sharp\sharp\EditDistanceProject\obj\Debug\EditDistanceProject.pdb
+D:\root\yura\institute\!!!_internet\!_sharp\sharp\sharp\EditDistanceProject\obj\Debug\EditDistanceProject.csprojResolveAssemblyReference.cache
+D:\root\yura\institute\!!!_internet\!_sharp_2013\sharp\EditDistanceProject\bin\Debug\EditDistanceProject.dll
+D:\root\yura\institute\!!!_internet\!_sharp_2013\sharp\EditDistanceProject\bin\Debug\EditDistanceProject.pdb
+D:\root\yura\institute\!!!_internet\!_sharp_2013\sharp\EditDistanceProject\obj\Debug\EditDistanceProject.dll
+D:\root\yura\institute\!!!_internet\!_sharp_2013\sharp\EditDistanceProject\obj\Debug\EditDistanceProject.pdb
+D:\root\yura\institute\2013\семестр_осень\БКИТ\sharp_homework\sharp\EditDistanceProject\bin\Debug\EditDistanceProject.dll
+D:\root\yura\institute\2013\семестр_осень\БКИТ\sharp_homework\sharp\EditDistanceProject\bin\Debug\EditDistanceProject.pdb
+D:\root\yura\institute\2013\семестр_осень\БКИТ\sharp_homework\sharp\EditDistanceProject\obj\Debug\EditDistanceProject.dll
+D:\root\yura\institute\2013\семестр_осень\БКИТ\sharp_homework\sharp\EditDistanceProject\obj\Debug\EditDistanceProject.pdb

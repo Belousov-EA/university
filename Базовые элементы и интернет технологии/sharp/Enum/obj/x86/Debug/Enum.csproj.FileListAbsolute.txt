@@ -1,0 +1,15 @@
+D:\root\yura\institute\!!!_internet\!_sharp\sharp\sharp\Enum\bin\Debug\Enum.exe
+D:\root\yura\institute\!!!_internet\!_sharp\sharp\sharp\Enum\bin\Debug\Enum.pdb
+D:\root\yura\institute\!!!_internet\!_sharp\sharp\sharp\Enum\obj\x86\Debug\Enum.exe
+D:\root\yura\institute\!!!_internet\!_sharp\sharp\sharp\Enum\obj\x86\Debug\Enum.pdb
+D:\root\yura\institute\!!!_internet\!_sharp\sharp\sharp\Enum\bin\Debug\Enum.exe.config
+D:\root\yura\institute\!!!_internet\!_sharp_2013\sharp\Enum\bin\Debug\Enum.exe.config
+D:\root\yura\institute\!!!_internet\!_sharp_2013\sharp\Enum\bin\Debug\Enum.exe
+D:\root\yura\institute\!!!_internet\!_sharp_2013\sharp\Enum\bin\Debug\Enum.pdb
+D:\root\yura\institute\!!!_internet\!_sharp_2013\sharp\Enum\obj\x86\Debug\Enum.exe
+D:\root\yura\institute\!!!_internet\!_sharp_2013\sharp\Enum\obj\x86\Debug\Enum.pdb
+D:\root\yura\institute\2013\семестр_осень\БКИТ\sharp_homework\sharp\Enum\bin\Debug\Enum.exe.config
+D:\root\yura\institute\2013\семестр_осень\БКИТ\sharp_homework\sharp\Enum\bin\Debug\Enum.exe
+D:\root\yura\institute\2013\семестр_осень\БКИТ\sharp_homework\sharp\Enum\bin\Debug\Enum.pdb
+D:\root\yura\institute\2013\семестр_осень\БКИТ\sharp_homework\sharp\Enum\obj\x86\Debug\Enum.exe
+D:\root\yura\institute\2013\семестр_осень\БКИТ\sharp_homework\sharp\Enum\obj\x86\Debug\Enum.pdb
