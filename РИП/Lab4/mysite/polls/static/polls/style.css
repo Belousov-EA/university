@@ -1,0 +1,24 @@
+.red{
+    color: #fd0202;
+}
+
+.prevozmogaya-trudnosti{
+    width: 150px;
+    height: 150px;
+}
+
+.bauman{
+    width: 150px;
+    height: 150px;
+}
+
+.reklama{
+    width: 200px;
+    height: 200px;
+}
+
+.empty{
+    width: 200px;
+    height: 100%;
+    padding: 83px;
+}

@@ -1,0 +1,22 @@
+{% extends "polls/index.html" %}
+{% block title %} Лаба 4 {% endblock %}
+{% block body %}
+    <div>
+        <h1> Сегодня {{ day }} {{ month }} {{ year }} года</h1>
+        {% if year == '2019' %}
+            <h3>Пока успеваем до зачетной недели</h3>
+        {% else %}
+            <h3>Похоже, уже не успеваем</h3>
+        {% endif %}
+        <h5>Список дел на сегодня:</h5>
+        <dl class="dl-horizontal fluid">
+            {% for class in classes %}
+                {% include "polls/subject.html" with subject=class.subject num=class.num %}
+            {%empty%}
+                <dt> Cегодня ничего делать не надо</dt>
+            {%endfor%}
+        </dl>
+
+
+    </div>
+{% endblock %}

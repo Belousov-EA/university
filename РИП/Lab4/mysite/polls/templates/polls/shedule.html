@@ -1,0 +1,18 @@
+{% extends "polls/index.html" %}
+{% block title %} Расписание на ближайшие несколько дней {% endblock %}
+{% block body %}
+    <h1>Расипсание на ближайшие несколько дней</h1>
+        {% for class_day in classes %}
+            {% for class in class_day %}
+            <dl class="dl-horizontal">
+                {% if class.num == 1 %}
+                    <dt> {{class.day}}:</dt>
+                {% endif %}
+                    {% include 'polls/subject.html' with subject=class.subject num=class.num %}
+            </dl>
+            {% empty %}
+            {% endfor %}
+        {% empty %}
+            <h5>Пока ничего делать не надо, можно почитать интересную книгу</h5>
+        {% endfor %}
+{% endblock %}

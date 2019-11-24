@@ -1,0 +1,102 @@
+{% load static %}
+<!DOCTYPE html>
+<html leng = 'en'>
+<head>
+    <meta charset="UTF-8">
+    <title>
+        {% block title %}{% endblock %}
+    </title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" inte
+          grity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="{% static 'polls/style.css' %}">
+</head>
+<body>
+
+    <nav class="navbar navbar-expand-lg navbar-light bg-dark">
+      <a calss="navbar-brand" href="/">
+          <img src="{% static 'polls/images/prevozmogaya-trudnosti.png' %}" class ="prevozmogaya-trudnosti rounded">
+      </a>
+      <a class="navbar-brand text-light" href="/">Лаба 4</a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav">
+          <li class="nav-item active">
+            <a class="nav-link text-light" href="shedule">Расписание на несколько дней <span class="sr-only">(current)</span></a>
+        </ul>
+      </div>
+    </nav>
+    <div class="empty"></div>
+    <div>
+        {% block body %} переопределяемся в наследниках{% endblock %}
+    </div>
+
+
+    <footer class="page-footer bg-dark teal pt-4">
+      <div class="container-fluid text-center text-md-left">
+        <div class="row">
+          <div class="col-md-4 mt-md-0 mt-3">
+              <div class="text-center">
+                  <a href="http://www.bmstu.ru/">
+                    <img src="{% static 'polls/images/bauman.png' %}" class="bauman">
+                  </a>
+              </div>
+
+              <p class="text-light text-center">Создано студентом</p>
+              <p class="text-light text-center">МГТУ им. Баумана</p>
+          </div>
+          <hr class="clearfix w-100 d-md-none pb-3">
+          <div class="col-md-4 mb-md-0 mb-3">
+              <div class="text-center container"></div>
+              <div class="row">
+                  <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 col-xl-12">
+                     <h5 class="text-light text-center" >Я в интернетах</h5>
+                  </div>
+              </div>
+              <div class="row">
+                  <div class="col-xs-3 col-sm-3 col-md-3 col-lg-3 col-xl-3">
+                      <a href="https://vk.com/ble98" class="badge">
+                          <img src="{% static 'polls/images/vk.png' %}">
+                      </a>
+                  </div>
+                  <div class="col-xs-3 col-sm-3 col-md-3 col-lg-3 col-xl-3">
+                      <a href="https://github.com/Belousov-EA" class="badge">
+                          <img src="{% static 'polls/images/github.png' %}">
+                      </a>
+                  </div>
+                  <div class="col-xs-3 col-sm-3 col-md-3 col-lg-3 col-xl-3">
+                      <a href="https://t.me/ble98" class="badge">
+                          <img src="{% static 'polls/images/telegram.png' %}">
+                      </a>
+                  </div>
+                  <div class="col-xs-3 col-sm-3 col-md-3 col-lg-3 col-xl-3">
+                      <a href="https://www.instagram.com/belousov_ea" class="badge">
+                          <img src="{% static 'polls/images/inst.png' %}">
+                      </a>
+                  </div>
+              </div>
+          </div>
+            <div class="col-md-4 mb-md-0 mb-3">
+                <div class="text-center">
+                    <img src="{% static 'polls/images/reklama.jpg' %}" class="reklama">
+                </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="footer-copyright text-center py-3">© 2019 Все права не защищены</a>
+      </div>
+    </footer>
+
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+            integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+            crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+        integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+        crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+        integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+        crossorigin="anonymous"></script>
+</body>
+</html>
