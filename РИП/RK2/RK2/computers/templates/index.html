@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>RK2</title>
+</head>
+<body>
+    {% for c in computer_list %}
+    <ul>
+        <li>Номер аудитории: {{ c.computer_class_number }},
+         ответственный за помещение: {{ c.computer_class_person }},
+         номер компьютера: {{ c.computer_number }},
+         клавиатура: {{ c.keyboard }}</li>
+    </ul>
+    {% endfor %}
+
+</body>
+</html>

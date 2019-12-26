@@ -1,0 +1,31 @@
+{% extends "basic_template.html" %}
+{% block title %} Персональная страница {% endblock %}
+{% block body %}
+
+
+<div class="free-space"></div>
+{% if name %}
+    <p>Здравствуйте, {{ name }}, чтобы изменить свои данные, воспользуйтесь формой ниже</p>
+    <div class="free-space"></div>
+{% endif %}
+
+{% if changed %}
+    <p>Данные успешно изменены</p>
+    <div class="free-space"></div>
+{% endif %}
+
+
+
+<div class="container">
+    <div class="row">
+        <form method="POST" class="col-sm">
+           {% csrf_token %}
+           {{ form.as_p }}
+           <button class='bg-primary text-light'type="submit">Изменить</button>
+        </form>
+    </div>
+</div>
+
+<div class="free-space"></div>
+
+{% endblock %}

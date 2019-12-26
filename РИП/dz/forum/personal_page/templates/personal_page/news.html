@@ -1,0 +1,39 @@
+{% extends "basic_template.html" %}
+{% block title %} Новости {% endblock %}
+{% block body %}
+
+<div class="free-space"></div>
+<div class="container">
+
+{% for new in news %}
+    <div class="new">
+        <div class="row">
+            <h3>{{ new.date }}</h3>
+
+        </div>
+        <div class="row"><h5>{{ new.text }}</h5></div>
+    </div>
+    {% for comment in new.comments %}
+    <div class="row">
+            <p>{{ comment.date }} {{ comment.user }}: {{ comment.text }}</p>
+    </div>
+
+    {% empty %}
+    {% endfor %}
+    <div class="free-space"></div>
+        <div class="row">
+            <form method="POST" class="col-sm">
+               {% csrf_token %}
+               <input type="text" name="add-comment{{ new.id }}">
+               <button class='bg-primary text-light'type="submit">Прокоментировать</button>
+            </form>
+        </div>
+    <div class="free-space"></div>
+{% empty %}
+    <p>Пока нет новостей</p>
+{% endfor %}
+
+</div>
+<div class="free-space"></div>
+
+{% endblock %}

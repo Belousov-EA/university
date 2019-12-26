@@ -1,0 +1,38 @@
+.red{
+    color: #fd0202;
+}
+
+.prevozmogaya-trudnosti{
+    width: 150px;
+    height: 150px;
+}
+
+.bauman{
+    width: 150px;
+    height: 150px;
+}
+
+.reklama{
+    width: 200px;
+    height: 200px;
+}
+
+.empty{
+    width: 200px;
+    height: 166px;
+    padding: 83px;
+}
+
+.my-head{
+    position: fixed;
+    width: 100%;
+    z-index: 2;
+}
+
+.free-space{
+    height: 50px;
+}
+
+.new{
+    background-color: #d6d6fb;
+}

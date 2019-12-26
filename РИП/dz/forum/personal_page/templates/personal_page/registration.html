@@ -1,0 +1,17 @@
+{% extends "basic_template.html" %}
+{% block title %} Регистрация {% endblock %}
+{% block body %}
+
+<div class="free-space"></div>
+<div class="container">
+    <div class="row">
+        <form method="POST" class="col-sm">
+           {% csrf_token %}
+           {{ form.as_p }}
+           <button class='bg-primary text-light'type="submit">Зарегистрироваться</button>
+        </form>
+    </div>
+</div>
+<div class="free-space"></div>
+
+{% endblock %}
