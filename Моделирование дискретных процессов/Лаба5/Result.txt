@@ -1,0 +1,13 @@
+**** EXPERIMENT BestLines() ****
+Main Result: 1.000000 1.000000 - TB$Transit=583.5903
+Main Result: 1.000000 2.000000 - TB$Transit=580.4804
+Main Result: 1.000000 3.000000 - TB$Transit=575.3137
+Main Result: 2.000000 1.000000 - TB$Transit=25.25514
+Main Result: 2.000000 2.000000 - TB$Transit=21.86501
+Main Result: 2.000000 3.000000 - TB$Transit=21.27172
+Main Result: 3.000000 1.000000 - TB$Transit=3.336706
+Main Result: 3.000000 2.000000 - TB$Transit=3.355168
+Main Result: 3.000000 3.000000 - TB$Transit=3.266520
+Main Result: 4.000000 1.000000 - TB$Transit=3.028665
+Main Result: 4.000000 2.000000 - TB$Transit=3.010774
+Main Result: 4.000000 3.000000 - TB$Transit=3.017502
