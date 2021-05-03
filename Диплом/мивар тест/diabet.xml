@@ -1,0 +1,106 @@
+<model id="{5f7bc7b2-a864-4a53-a370-e385a8107ce9}" shortName="Model 1" formatXmlVersion="2.0" description="Model 1">
+<class id="{642fa0fb-f51c-49e9-9bc6-9381bc7b2a8c}" shortName="Model 1">
+<parameters>
+<parameter id="020af6f3-0298-426b-a946-391b090fd183" shortName="IMT" description="ИМТ&#xa;1 менее 15 &#xa;2 15-19&#xa;3 19-24&#xa;4 24-28&#xa;5 более 28" type="double"/>
+<parameter id="6e668c78-1bd4-468c-acb0-97521e265935" shortName="age" defaultValue="3.00" description="1. 0-11&#xa;2. 12-17&#xa;3. 18-29&#xa;4. 30-49&#xa;5. 50 и более" type="double"/>
+<parameter id="97473fd7-15b6-438e-a2f6-84987552d5de" shortName="diabet_type" description="1 диабет 1-го типа &#xa;2 диабет 2-го типа &#xa;3 диабета нет &#xa;4 преддиабетное состояние" type="double"/>
+<parameter id="b5983d46-41f3-4917-b51b-0a5dae73f2c0" shortName="sex" description="1. мужской&#xa;2. женский" type="double"/>
+</parameters>
+<rules>
+<rule id="05705025-a399-4a24-8502-5c7779b01a4c" shortName="rule15_pituitary" relation="cc91d9dd-bdab-4119-94b9-f22922f0d2cd" resultId="y:97473fd7-15b6-438e-a2f6-84987552d5de" initId="x3:06d95d93-709d-4e50-9993-f2bd98dbeb42;x18:6ff35d92-10aa-4ecc-b1e1-0c41bdf95a16;x4:227ed633-5d73-42a7-a65c-fe51645f3877"/>
+<rule id="0685bd06-9c5c-4880-8357-7d6df5ef267d" shortName="rule5_ZnT8Ab" relation="e4a8b855-33a7-4210-bd03-dcc3da750df3" resultId="y:97473fd7-15b6-438e-a2f6-84987552d5de" initId="x3:a00d37d4-bd39-4e94-932f-3fdc60815547;x1:2250db64-ba98-4e69-bb41-9723e7058cbf;x2:94d6da45-97ae-478e-862b-099ac30bfea3" description="ZnT8Ab и уровень глюкозы 6.5 и более мм/л, имеется то диабет 1 тип"/>
+<rule id="6466dc76-c74c-45d5-a91a-e3d80fd2bf23" shortName="rule9_IMT" relation="fa092e5f-07d4-465f-85e8-bac017f12cd9" resultId="y:97473fd7-15b6-438e-a2f6-84987552d5de" initId="x1:6e668c78-1bd4-468c-acb0-97521e265935;x2:020af6f3-0298-426b-a946-391b090fd183"/>
+<rule id="75bf2571-c6d0-4fa2-b6a9-dc455a427b30" shortName="rule11_age" relation="d9bd3deb-c10c-419f-be01-51385c7c1d13" resultId="y:97473fd7-15b6-438e-a2f6-84987552d5de" initId="x:6e668c78-1bd4-468c-acb0-97521e265935"/>
+<rule id="7f20250c-0035-4c5e-84ca-61c09f334c9e" shortName="rule13_genetic" relation="8f3737fa-32ce-4618-9c9f-5355051cd937" resultId="y:97473fd7-15b6-438e-a2f6-84987552d5de" initId="x1:a00d37d4-bd39-4e94-932f-3fdc60815547;x2:06b7e4f5-fd65-4997-ac88-6f741d7392be"/>
+<rule id="838de56e-fcdb-40cc-8331-8c2e4aab7943" shortName="rule10_IMT_gucose" relation="8131c7ca-65ab-4471-8ba5-6319a76372d3" resultId="y:97473fd7-15b6-438e-a2f6-84987552d5de" initId="x1:020af6f3-0298-426b-a946-391b090fd183;x2:a00d37d4-bd39-4e94-932f-3fdc60815547"/>
+<rule id="8674296b-0691-4771-a105-951150b204ab" shortName="rule1" relation="0924f309-362b-4e9c-b29d-907c68f6498d" resultId="y:97473fd7-15b6-438e-a2f6-84987552d5de" initId="x:a00d37d4-bd39-4e94-932f-3fdc60815547" description="Если глюкоза до 6 мм/л, то диабета нет"/>
+<rule id="895c7de6-8890-4d8a-98ab-b6cefe01d247" shortName="rulel8_different_simptoms" relation="5000e3eb-c9bb-4eed-a18a-36f7b813c296" resultId="y:97473fd7-15b6-438e-a2f6-84987552d5de" initId="x5:1614b95f-76f0-41c3-bfcb-0e554687ca1b;x3:06d95d93-709d-4e50-9993-f2bd98dbeb42;x7:9c5f030b-7b94-4bbb-9b85-ce5f37ebbdc6;x8:eab5c986-06e6-4d14-aa49-eaf37e75d5b2;x1:a00d37d4-bd39-4e94-932f-3fdc60815547;x6:074723b9-875e-47b2-9800-30867a73ce96;x4:227ed633-5d73-42a7-a65c-fe51645f3877"/>
+<rule id="8a07b4e0-a027-4558-b1ea-cfb6c2cfe5bd" shortName="rule12_glucose" relation="7132ff7a-4288-47f1-95b9-9e538cad5205" resultId="y:97473fd7-15b6-438e-a2f6-84987552d5de" initId="x:a00d37d4-bd39-4e94-932f-3fdc60815547"/>
+<rule id="9fdc845c-f385-4442-86dd-9cbb3b931de3" shortName="rule6_vait_D" relation="33c4b318-a040-42ab-b5e6-4844dcc6ec2d" resultId="y:97473fd7-15b6-438e-a2f6-84987552d5de" initId="x1:a72ba043-2022-4fd8-a62e-062e6f4bfd4b;x2:a00d37d4-bd39-4e94-932f-3fdc60815547" description="Если пациент имеет низкое содержание витамина D и пациент имеет уровень глюкозы в крови более 6.5 моль/л, то имеется диабет 1 тип"/>
+<rule id="b0af4f60-b26f-48ad-b0bb-5f247eca4033" shortName="rule2-3_HBA1C" relation="2d569c5e-1b85-45d7-a2f1-783eb8d0aee5" resultId="y:97473fd7-15b6-438e-a2f6-84987552d5de" initId="x:2250db64-ba98-4e69-bb41-9723e7058cbf" description="Если нет HBA1C, то диабета нет&#xa;Если в крови в наличии HBA1C, то имеется диабет 1 типа"/>
+<rule id="b29dfcf8-1b3f-48a2-9c6a-b6ae0f41f538" shortName="rule4_ketone" relation="0fd0e9ab-7d72-4fc0-8441-3defc8706ca8" resultId="y:97473fd7-15b6-438e-a2f6-84987552d5de" initId="x:75c339e2-0677-4533-8564-9c9e3357f21f"/>
+<rule id="c8fdef85-db15-4c45-a8ad-0ced8c79b4de" shortName="rulel14_different_simptoms" relation="a4f38cc9-9a1e-4ed5-944b-3e3f0e0534bf" resultId="y:97473fd7-15b6-438e-a2f6-84987552d5de" initId="x5:a00d37d4-bd39-4e94-932f-3fdc60815547;x1:a27a010f-f2ad-4c3b-aef5-7170d8966bc8;x9:27844dbe-238b-4c4a-ae44-5032b028f1f4;x2:629c7bf1-c50c-4df1-af39-564833ca4a89"/>
+<rule id="d118065f-d122-4b43-977d-86742be6aea6" shortName="rule7_virus" relation="407c9cf5-2f51-44d1-838b-39c3835e0b33" resultId="y:97473fd7-15b6-438e-a2f6-84987552d5de" initId="x3:a00d37d4-bd39-4e94-932f-3fdc60815547;x1:e65be414-c38e-4394-9cc8-00f837feb6a1;x2:129e2718-282d-4f84-a8b4-594e4656946d" description="Если пациент имеет вирус свинки или Эпштейна-Бара и пациент имеет уровень глюкозы в крови более 6.5 моль/л, то имеется диабет 1 тип"/>
+</rules>
+<constraints/>
+<classes>
+<class id="18ffcd45-611b-42e3-85a8-b3e5ab92eda2" shortName="urinalysis" description="Анализ мочи">
+<parameters>
+<parameter id="75c339e2-0677-4533-8564-9c9e3357f21f" shortName="ketone_cells" description="наличие кетоновых клеток&#xa;1 в наличии&#xa;2 нет в наличии" type="double"/>
+<parameter id="c3a76499-9b29-4510-99a6-8cac3165b181" shortName="uric_acid" description="мочевая кислота&#xa;1 менее 210 мкмоль/л &#xa;2 210-420 мкмоль/л &#xa;3 более 420 мкмоль/л" type="double"/>
+</parameters>
+<rules/>
+<constraints/>
+<classes/>
+</class>
+<class id="53450d26-1611-4bf1-8fda-2b2c0fe84d83" shortName="Y_N_params">
+<parameters>
+<parameter id="06b7e4f5-fd65-4997-ac88-6f741d7392be" shortName="genetic_predisposition" description="Наличие наследственной предрасположенности&#xa;1 да &#xa;2 нет" type="double"/>
+<parameter id="129e2718-282d-4f84-a8b4-594e4656946d" shortName="EB_virus" description="Наличие вируса Эпштейна-Барр&#xa;1 да &#xa;2 нет" type="double"/>
+<parameter id="49fa2f13-1a3f-4ba5-bc0a-a1cc38c4c251" shortName="kidneys_UZI_diviations" description="Есть ли отклонения УЗИ почек и подпочечников&#xa;1 да &#xa;2 нет" type="double"/>
+<parameter id="6ff35d92-10aa-4ecc-b1e1-0c41bdf95a16" shortName="pituitary_tumor" description="Есть ли опухоль гипофиза&#xa;1 да &#xa;2 нет" type="double"/>
+<parameter id="ba07b1f3-c3d7-41a3-aa19-2f24fcfa68c5" shortName="EKG_diviations" description="Есть ли отклонения на ЭКГ&#xa;1 да &#xa;2 нет" type="double"/>
+<parameter id="e65be414-c38e-4394-9cc8-00f837feb6a1" shortName="mumps_virus" description="Наличие вируса свинки&#xa;1 да &#xa;2 нет" type="double"/>
+<parameter id="ef6f8fb6-cf3a-49cf-bd01-9ae8e7a7ffab" shortName="SD_1_2_relatives" description="Наличие у родственников СД 1го или 2го типа&#xa;1 да &#xa;2 нет" type="double"/>
+</parameters>
+<rules/>
+<constraints/>
+<classes/>
+</class>
+<class id="9e264b46-5a7c-4801-bcb3-676e4372a602" shortName="blood_pressure" description="давление крови">
+<parameters>
+<parameter id="5d6640d5-3c96-46ef-8951-576fdab010ed" shortName="Systolic" description="Систолическое давление&#xa;1) 100-120 &#xa;2) 120-140 &#xa;3) 140 и более" type="double"/>
+<parameter id="682846ce-2d23-4162-a186-314fc23480a7" shortName="Diastolic" description="Диастолическое давление&#xa;1) менее 70 &#xa;2) 70-85 &#xa;3) 85 и более" type="double"/>
+</parameters>
+<rules/>
+<constraints/>
+<classes/>
+</class>
+<class id="cbea4acc-a8ac-4589-9f6b-694bdfa3f768" shortName="symptoms" description="1 чрезмерная жажда &#xa;2 частое мочеиспускание &#xa;3 утомляемость &#xa;4 снижение концентрации внимания &#xa;5 затуманенность зрения &#xa;6 зуд и сухость кожи&#xa;7 рвота &#xa;8 потеря веса &#xa;9 чрезмерный голод">
+<parameters>
+<parameter id="06d95d93-709d-4e50-9993-f2bd98dbeb42" shortName="3-3" defaultValue="2.00" description="3 утомляемость :&#xa;1: да &#xa;2: нет" type="double"/>
+<parameter id="074723b9-875e-47b2-9800-30867a73ce96" shortName="3-6" defaultValue="2.00" description="6 зуд и сухость кожи:&#xa;1: да &#xa;2: нет&#xa;" type="double"/>
+<parameter id="1614b95f-76f0-41c3-bfcb-0e554687ca1b" shortName="3-5" defaultValue="2.00" description="5 затуманенность зрения :&#xa;1: да &#xa;2: нет&#xa;" type="double"/>
+<parameter id="227ed633-5d73-42a7-a65c-fe51645f3877" shortName="3-4" defaultValue="2.00" description="4 снижение концентрации внимания :&#xa;1: да &#xa;2: нет&#xa;" type="double"/>
+<parameter id="27844dbe-238b-4c4a-ae44-5032b028f1f4" shortName="3-9" defaultValue="2.00" description="9 чрезмерный голод:&#xa;1: да &#xa;2: нет" type="double"/>
+<parameter id="629c7bf1-c50c-4df1-af39-564833ca4a89" shortName="3-2" defaultValue="2.00" description="2 частое мочеиспускание :&#xa;1: да &#xa;2: нет&#xa;" type="double"/>
+<parameter id="9c5f030b-7b94-4bbb-9b85-ce5f37ebbdc6" shortName="3-7" defaultValue="2.00" description="7 рвота :&#xa;1: да &#xa;2: нет&#xa;" type="double"/>
+<parameter id="a27a010f-f2ad-4c3b-aef5-7170d8966bc8" shortName="3-1" defaultValue="2.00" description="1 чрезмерная жажда :&#xa;1: да &#xa;2: нет&#xa;" type="double"/>
+<parameter id="eab5c986-06e6-4d14-aa49-eaf37e75d5b2" shortName="3-8" defaultValue="2.00" description="8 потеря веса :&#xa;1: да &#xa;2: нет" type="double"/>
+</parameters>
+<rules/>
+<constraints/>
+<classes/>
+</class>
+<class id="fe518e57-0f60-4763-bdae-e62ff89530c6" shortName="blood_test">
+<parameters>
+<parameter id="2250db64-ba98-4e69-bb41-9723e7058cbf" shortName="HBA1C" description="наличие HBA1C&#xa;1 в наличии&#xa;2 нет в наличии" type="double"/>
+<parameter id="6a61821c-df27-4adc-a166-9daaf36fc9b7" shortName="cholesterol" description="холестерин&#xa;1) 0-1.5 &#xa;2) 1.8-2.5 &#xa;3) 2.5-4.5" type="double"/>
+<parameter id="94d6da45-97ae-478e-862b-099ac30bfea3" shortName="ZnT8Ab" description="наличие ZnT8Ab&#xa;1 в наличии&#xa;2 нет в наличии" type="double"/>
+<parameter id="a00d37d4-bd39-4e94-932f-3fdc60815547" shortName="glucose" description="1 до 6 ммоль/л&#xa;2 6-6.5 ммоль/л &#xa;3 6.5 ммоль/л и более" type="double"/>
+<parameter id="a72ba043-2022-4fd8-a62e-062e6f4bfd4b" shortName="vitamin_D" description="1 низкое содержание &#xa;2 нормальное содержание" type="double"/>
+<parameter id="bae85cea-76bd-4d15-bb15-65c8363aed64" shortName="triglycerides" description="триглицериды&#xa;1 менее 1.7&#xa;2 более 1.7" type="double"/>
+</parameters>
+<rules/>
+<constraints/>
+<classes/>
+</class>
+</classes>
+</class>
+<relations>
+<relation id="0924f309-362b-4e9c-b29d-907c68f6498d" shortName="rel1" inObj="x:double" relationType="ifclause" description="Если глюкоза до 6 мм/л, то диабета нет" outObj="y:double">if (x==1) {y=3;} else {{};}</relation>
+<relation id="0fd0e9ab-7d72-4fc0-8441-3defc8706ca8" shortName="rel4_ketone" inObj="x:double" relationType="ifclause" description="Если в наличии в моче кетоновых клеток, имеется то диабет 1 типа" outObj="y:double">if (x==1) {y=1;} else {{};}</relation>
+<relation id="2d569c5e-1b85-45d7-a2f1-783eb8d0aee5" shortName="rel2-3_HBA1C" inObj="x:double" relationType="ifclause" description="Если нет HBA1C, то диабета нет&#xa;Если в крови в наличии HBA1C, то имеется диабет 1 типа" outObj="y:double">if (x==2) {y=3;} else {y=1;}</relation>
+<relation id="33c4b318-a040-42ab-b5e6-4844dcc6ec2d" shortName="rel6_vait_D" inObj="x1:double;x2:double" relationType="ifclause" description="Если пациент имеет низкое содержание витамина D и пациент имеет уровень глюкозы в крови более 6.5 моль/л, то имеется диабет 1 тип" outObj="y:double">if ((x1==1)&amp;&amp;(x2==3)) {y=1;} else {{};}</relation>
+<relation id="407c9cf5-2f51-44d1-838b-39c3835e0b33" shortName="rel7_virus" inObj="x3:double;x1:double;x2:double" relationType="ifclause" description="Если пациент имеет вирус свинки или Эпштейна-Бара и пациент имеет уровень глюкозы в крови более 6.5 моль/л, то имеется диабет 1 тип" outObj="y:double">if ((x1==1 || x2==1) &amp;&amp; x3==3) {y=1;} else {{};}</relation>
+<relation id="5000e3eb-c9bb-4eed-a18a-36f7b813c296" shortName="rel8_different_simptoms" inObj="x5:double;x3:double;x7:double;x8:double;x6:double;x1:double;x4:double" relationType="ifclause" description="Если пациент имеет любые из симптомов 3.3 - 3.8 и пациент имеет уровень глюкозы в крови более 6.5 моль/л, то имеется диабет 1 типа&#xa;3.3 утомляемость 3.4 снижение концентрации внимания 3.5 затуманенность зрения 3.6 зуд и сухость кожи 3.7 рвота 3.8 3.8 потеря веса 5.3 6.5 и более" outObj="y:double">if ((x3==1 ||  x4==1 || x5==1 ||  x6==1 || x7==1 || x8==1) &amp;&amp; x1==3) {y=1;} else {{};}</relation>
+<relation id="7132ff7a-4288-47f1-95b9-9e538cad5205" shortName="rel12_glucose" inObj="x:double" relationType="ifclause" outObj="y:double">if (x==2) {y=4;} else {{};}</relation>
+<relation id="8131c7ca-65ab-4471-8ba5-6319a76372d3" shortName="rel10_IMT_gucose" inObj="x1:double;x2:double" relationType="ifclause" outObj="y:double">if (x1==5 &amp;&amp; x2 ==3) {y=4;} else {{};}</relation>
+<relation id="8f3737fa-32ce-4618-9c9f-5355051cd937" shortName="rel13_genetic" inObj="x1:double;x2:double" relationType="ifclause" outObj="y:double">if (x1==2 &amp;&amp; x2==1) {y=4;} else {{};}</relation>
+<relation id="a4f38cc9-9a1e-4ed5-944b-3e3f0e0534bf" shortName="rel14_different_simptoms" inObj="x5:double;x1:double;x9:double;x2:double" relationType="ifclause" outObj="y:double">if ((x1==1 || x2== 1 || x9==1) &amp;&amp; x5==3) {y=2;} else {{};}</relation>
+<relation id="cc91d9dd-bdab-4119-94b9-f22922f0d2cd" shortName="rel15_pituitary" inObj="x3:double;x18:double;x4:double" relationType="ifclause" outObj="y:double">if (x3==1 &amp;&amp; x4==1 &amp;&amp; x18==1) {y=2;} else {{};}</relation>
+<relation id="d9bd3deb-c10c-419f-be01-51385c7c1d13" shortName="rel11_age" inObj="x:double" relationType="ifclause" outObj="y:double">if (x==5) {y=4;} else {{};}</relation>
+<relation id="e4a8b855-33a7-4210-bd03-dcc3da750df3" shortName="rel5_ZnT8Ab" inObj="x3:double;x1:double;x2:double" relationType="ifclause" description="ZnT8Ab и уровень глюкозы 6.5 и более мм/л, имеется то диабет 1 типа" outObj="y:double">if ((x1==1)&amp;&amp;(x2==1)&amp;&amp;(x3==3)) {y=1;} else {{};}</relation>
+<relation id="fa092e5f-07d4-465f-85e8-bac017f12cd9" shortName="rel9_IMT" inObj="x1:double;x2:double" relationType="ifclause" outObj="y:double">if (x1==5 &amp;&amp; x2==5) {y=4;} else {{};}</relation>
+</relations>
+</model>
