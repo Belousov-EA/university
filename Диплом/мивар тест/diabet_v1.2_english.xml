@@ -170,138 +170,138 @@
 </class>
 <relations>
 <relation id="08287f48-ce02-4c28-8a26-7dae5ec90e3b" shortName="Recalculation_from_mg_dl_in_mmol_l" inObj="x:double" relationType="simple" outObj="y:double">y = x / 18.2</relation>
-<relation id="1a760161-b305-401c-80ac-aa493c7d19de" shortName="Definition_criterior_installation_MD_glycated_hemoglobin_blood" inObj="x:double" relationType="prog" outObj="y:double">var x,  y;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;
-if( x >= 6.5 ){&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;
-y = 1;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;
-} else {&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;
-y = 0;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;
+<relation id="1a760161-b305-401c-80ac-aa493c7d19de" shortName="Definition_criterior_installation_MD_glycated_hemoglobin_blood" inObj="x:double" relationType="prog" outObj="y:double">var x,  y;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;
+if( x >= 6.5 ){&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;
+y = 1;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;
+} else {&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;
+y = 0;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;
 }</relation>
 <relation id="2425c77f-4dac-4ed9-8026-cfd047959760" shortName="Ограничение_положительные_значения" inObj="x:double" relationType="constr" outObj="flag:double">if (x>0) {flag = true;} else {flag = false;}</relation>
-<relation id="25d2cacd-c91b-4ded-84a4-0c595e1d2000" shortName="Definition_of_the_clinical_map_MD2" inObj="x3:double;x1:double;x4:double;x2:double" relationType="prog" outObj="y:double">var x1, x2, x3, x4;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;
-if( x1 &amp;&amp; x2 || x1 &amp;&amp; x3 || x1 &amp;&amp; (x4>40) || x2 &amp;&amp; x3 || x2 &amp;&amp; (x4>40) || x3 &amp;&amp; (x4>40) ){&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;
-y = 1;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;
-}else{&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;
-y = 0;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;
+<relation id="25d2cacd-c91b-4ded-84a4-0c595e1d2000" shortName="Definition_of_the_clinical_map_MD2" inObj="x3:double;x1:double;x4:double;x2:double" relationType="prog" outObj="y:double">var x1, x2, x3, x4;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;
+if( x1 &amp;&amp; x2 || x1 &amp;&amp; x3 || x1 &amp;&amp; (x4>40) || x2 &amp;&amp; x3 || x2 &amp;&amp; (x4>40) || x3 &amp;&amp; (x4>40) ){&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;
+y = 1;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;
+}else{&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;
+y = 0;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;
 }</relation>
-<relation id="2b8ee0c3-f3f5-4241-aaeb-23c9b443c1a8" shortName="Definition_criteria_installation_MD_glucosa_plasm_blood_inflush" inObj="x:double" relationType="prog" outObj="y:double">var x, y;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;
-if( x >= 7.0 )&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;
-{&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;
-    y = 1;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;
-} else {&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;
-    y = 0;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;
+<relation id="2b8ee0c3-f3f5-4241-aaeb-23c9b443c1a8" shortName="Definition_criteria_installation_MD_glucosa_plasm_blood_inflush" inObj="x:double" relationType="prog" outObj="y:double">var x, y;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;
+if( x >= 7.0 )&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;
+{&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;
+    y = 1;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;
+} else {&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;
+    y = 0;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;
 }</relation>
-<relation id="32ed77c2-13d4-4bde-a4da-cbc83f0c2802" shortName="Criteria_for_the_Establishment_of_MD_and_Autoantibodies_SD1" inObj="x1:double;x2:double" relationType="prog" outObj="y:double">var x1, x2, y;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;
-if((x1 == 1) &amp;&amp; (x2 == 1)){&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;
-    y = 1;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;
-} else {&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;
-    y = 0;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;
+<relation id="32ed77c2-13d4-4bde-a4da-cbc83f0c2802" shortName="Criteria_for_the_Establishment_of_MD_and_Autoantibodies_SD1" inObj="x1:double;x2:double" relationType="prog" outObj="y:double">var x1, x2, y;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;
+if((x1 == 1) &amp;&amp; (x2 == 1)){&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;
+    y = 1;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;
+} else {&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;
+    y = 0;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;
 }</relation>
 <relation id="5548643d-fc56-4ac7-9920-f77d05a6b836" shortName="Ограничение_пол" inObj="x:string" relationType="constr" outObj="flag:double">if (x=='male' || x == 'female') {flag = true;} else {flag = false;}</relation>
-<relation id="5fee2f6d-5938-4216-b3ef-91caf484fb59" shortName="Determination_of_the_increased_C_peptide_level" inObj="x:double" relationType="prog" outObj="y:double">var x, y;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;
-if( x > 4.4 ) {&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;
-    y = 1;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;
-} else {&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;
-    y = 0;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;
+<relation id="5fee2f6d-5938-4216-b3ef-91caf484fb59" shortName="Determination_of_the_increased_C_peptide_level" inObj="x:double" relationType="prog" outObj="y:double">var x, y;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;
+if( x > 4.4 ) {&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;
+    y = 1;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;
+} else {&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;
+    y = 0;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;
 }</relation>
-<relation id="71b9a69d-5c6c-48a3-bf46-0fa7c6b0c6c2" shortName="Establishment_criteria_MD_and_C_peptide_level" inObj="x1:double;x2:double" relationType="prog" outObj="y:double">var x1, x2, y;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;
-if((x1 == 1)&amp;&amp;(x2 == 1)){&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;
-    y = 1;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;
-} else {&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;
-    y = 0;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;
+<relation id="71b9a69d-5c6c-48a3-bf46-0fa7c6b0c6c2" shortName="Establishment_criteria_MD_and_C_peptide_level" inObj="x1:double;x2:double" relationType="prog" outObj="y:double">var x1, x2, y;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;
+if((x1 == 1)&amp;&amp;(x2 == 1)){&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;
+    y = 1;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;
+} else {&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;
+    y = 0;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;
 }</relation>
-<relation id="8376eeae-9ea6-4c4a-9a64-2ab2d2cb3c8f" shortName="Installation_MD_and_clinical_artin" inObj="x1:double;x2:double" relationType="prog" outObj="y:double">var x1, x2;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;
-if( (x1 == 1) &amp;&amp; (x2 == 1) ){&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;
-    y = 1;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;
-} else {&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;
-    y = 0;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;
+<relation id="8376eeae-9ea6-4c4a-9a64-2ab2d2cb3c8f" shortName="Installation_MD_and_clinical_artin" inObj="x1:double;x2:double" relationType="prog" outObj="y:double">var x1, x2;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;
+if( (x1 == 1) &amp;&amp; (x2 == 1) ){&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;
+    y = 1;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;
+} else {&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;
+    y = 0;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;
 }</relation>
 <relation id="8450f236-d78d-4f3a-af82-4dcac7782c9d" shortName="Ограничение_проценты" inObj="x:double" relationType="constr" outObj="flag:double">if (x >= 0 &amp;&amp; x &lt;= 100) {flag = true;} else {flag = false;}</relation>
 <relation id="8ac8a004-9780-488d-8fda-c0fcb1533faa" shortName="Limit_bool" inObj="x:double" relationType="constr" outObj="flag:double">if (x == 0 || x == 1) {flag = true;} else {flag = false;}</relation>
-<relation id="914423aa-e345-4c05-92f8-7f7abe88762f" shortName="Definition_of_classical_symptoms" inObj="x5:double;x3:double;x7:double;x8:double;x1:double;x6:double;x9:double;x4:double;x2:double" relationType="prog" outObj="y:double">var x1, x2, x3, x4, x5, x6, x7, x8, x9, y;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;
-if( (x1==1) || (x2==1) || (x3 == 1) || (x4 == 1) || (x5==1) || (x6 == 1) || (x7==1) || (x8==1) || (x9 ==1) ){&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;
-    y = 1;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;
-} else {&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;
-    y = 0;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;
+<relation id="914423aa-e345-4c05-92f8-7f7abe88762f" shortName="Definition_of_classical_symptoms" inObj="x5:double;x3:double;x7:double;x8:double;x1:double;x6:double;x9:double;x4:double;x2:double" relationType="prog" outObj="y:double">var x1, x2, x3, x4, x5, x6, x7, x8, x9, y;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;
+if( (x1==1) || (x2==1) || (x3 == 1) || (x4 == 1) || (x5==1) || (x6 == 1) || (x7==1) || (x8==1) || (x9 ==1) ){&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;
+    y = 1;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;
+} else {&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;
+    y = 0;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;
 }</relation>
-<relation id="9cb35b2e-53dc-437b-9718-de81f74c6d43" shortName="Determination_of_the_excess_mass_body" inObj="height:double;weight:double;age:double" relationType="prog" outObj="y:double">var height, weight, age, y;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;
-if( weight / ( height * height ) >= 25)&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;
-{&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;
-y = 1;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;
-}else&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;
-{&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;
-y = 0;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;
-}&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;
+<relation id="9cb35b2e-53dc-437b-9718-de81f74c6d43" shortName="Determination_of_the_excess_mass_body" inObj="height:double;weight:double;age:double" relationType="prog" outObj="y:double">var height, weight, age, y;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;
+if( weight / ( height * height ) >= 25)&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;
+{&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;
+y = 1;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;
+}else&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;
+{&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;
+y = 0;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;
+}&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;
 </relation>
-<relation id="ab9059c4-76ee-40bf-92f8-a9c3a6cfd86b" shortName="Definition_of_the_clinical_map_MD1" inObj="x3:double;x1:double;x4:double;x2:double" relationType="prog" outObj="y:double">var x1, x2, x3, x4, y;&#xd;&#xd;&#xd;&#xd;&#xd;
-if( x1 &amp;&amp; x2 || x1 &amp;&amp; x3 || x1 &amp;&amp; x4 || x2 &amp;&amp; x3 || x2 &amp;&amp; x4 ||x3 &amp;&amp; x4 ){&#xd;&#xd;&#xd;&#xd;&#xd;
-    y = 1;&#xd;&#xd;&#xd;&#xd;&#xd;
-}else{&#xd;&#xd;&#xd;&#xd;&#xd;
-    y = 0;&#xd;&#xd;&#xd;&#xd;&#xd;
+<relation id="ab9059c4-76ee-40bf-92f8-a9c3a6cfd86b" shortName="Definition_of_the_clinical_map_MD1" inObj="x3:double;x1:double;x4:double;x2:double" relationType="prog" outObj="y:double">var x1, x2, x3, x4, y;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;
+if( x1 &amp;&amp; x2 || x1 &amp;&amp; x3 || x1 &amp;&amp; x4 || x2 &amp;&amp; x3 || x2 &amp;&amp; x4 ||x3 &amp;&amp; x4 ){&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;
+    y = 1;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;
+}else{&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;
+    y = 0;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;
 }</relation>
-<relation id="abc7651e-f02e-4395-b72a-0292143031e4" shortName="Definition_criterior_installation_MD_glucose" inObj="x1:double;x2:double" relationType="prog" outObj="y:double">var x1, x2, y;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;
-if ( (x1 >=11.1) &amp;&amp; (x2 == 1) ){&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;
-    y = 1;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;
-} else {&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;
-    y = 0;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;
+<relation id="abc7651e-f02e-4395-b72a-0292143031e4" shortName="Definition_criterior_installation_MD_glucose" inObj="x1:double;x2:double" relationType="prog" outObj="y:double">var x1, x2, y;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;
+if ( (x1 >=11.1) &amp;&amp; (x2 == 1) ){&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;
+    y = 1;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;
+} else {&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;
+    y = 0;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;
 }</relation>
-<relation id="bb2cc9ff-b25d-471a-9422-163ea5c430bb" shortName="Definite_existent_MD" inObj="x1:double;x2:double" relationType="prog" outObj="y:double">var x1, x2, y;&#xd;&#xd;&#xd;&#xd;&#xd;
-if( (x1 == 0) &amp;&amp; (x2 == 0) ){&#xd;&#xd;&#xd;&#xd;&#xd;
-    y = 1;&#xd;&#xd;&#xd;&#xd;&#xd;
-} else {&#xd;&#xd;&#xd;&#xd;&#xd;
-    y = 0;&#xd;&#xd;&#xd;&#xd;&#xd;
-}</relation>
-<relation id="ceefa6b5-3a50-4efd-8da1-c044b28d653f" shortName="Definition_of_puberty_references" inObj="sex:string;age:double" relationType="prog" outObj="y:double">var sex, age, y;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;
-if( sex == 'мужской' ){&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;
-    if ((age > 11) &amp;&amp; (age &lt; 19))&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;
-    {&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;
-        y = 1;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;
-    }else{&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;
-        y = 0;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;
-    }&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;
-}&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;
-if( sex == 'женский' ){&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;
-    if ((age > 9) &amp;&amp; (age &lt; 16))&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;
-    {&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;
-        y = 1;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;
-    }else{&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;
-        y = 0;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;
-    }&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;
-}</relation>
-<relation id="d66e71ca-2230-4d7b-95f4-a5efb68b35a1" shortName="Absence_autoantibodies_MD1_and_criteria_installation_MD" inObj="x1:double;x2:double" relationType="prog" outObj="y:double">var x1, x2, y;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;
-if((x1 == 0) &amp;&amp; (x2 == 1) )&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;
-{&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;
+<relation id="bb2cc9ff-b25d-471a-9422-163ea5c430bb" shortName="Definite_existent_MD" inObj="x1:double;x2:double" relationType="prog" outObj="y:double">var x1, x2, y;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;
+if( (x1 == 0) &amp;&amp; (x2 == 0) ){&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;
     y = 1;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;
 } else {&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;
     y = 0;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;
 }</relation>
-<relation id="d72d6052-1e38-4fe5-8d6a-092a61eba20e" shortName="Determination_of_the_decreased_C_peptide_level" inObj="x:double" relationType="prog" outObj="y:double">var x, y;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;
-if( x &lt; 1.1 ){&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;
-    y = 1;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;
-} else {&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;
-    y = 0;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;
+<relation id="ceefa6b5-3a50-4efd-8da1-c044b28d653f" shortName="Definition_of_puberty_references" inObj="sex:string;age:double" relationType="prog" outObj="y:double">var sex, age, y;
+if( sex == 'male' ){
+    if ((age > 11) &amp;&amp; (age &lt; 19))
+    {
+        y = 1;
+    }else{
+        y = 0;
+    }
+}
+if( sex == 'female' ){
+    if ((age > 9) &amp;&amp; (age &lt; 16))
+    {
+        y = 1;
+    }else{
+        y = 0;
+    }
 }</relation>
-<relation id="e046e773-75a5-42f9-86c3-ea7e1f025bb7" shortName="Definition_of_criteria_setting_MD_GSPP" inObj="x:double" relationType="prog" outObj="y:double">var x, y;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;
-if( x >= 11.1)&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;
-{&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;
-    y = 1;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;
-}else{&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;
-    y = 0;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;
+<relation id="d66e71ca-2230-4d7b-95f4-a5efb68b35a1" shortName="Absence_autoantibodies_MD1_and_criteria_installation_MD" inObj="x1:double;x2:double" relationType="prog" outObj="y:double">var x1, x2, y;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;
+if((x1 == 0) &amp;&amp; (x2 == 1) )&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;
+{&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;
+    y = 1;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;
+} else {&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;
+    y = 0;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;
+}</relation>
+<relation id="d72d6052-1e38-4fe5-8d6a-092a61eba20e" shortName="Determination_of_the_decreased_C_peptide_level" inObj="x:double" relationType="prog" outObj="y:double">var x, y;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;
+if( x &lt; 1.1 ){&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;
+    y = 1;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;
+} else {&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;
+    y = 0;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;
+}</relation>
+<relation id="e046e773-75a5-42f9-86c3-ea7e1f025bb7" shortName="Definition_of_criteria_setting_MD_GSPP" inObj="x:double" relationType="prog" outObj="y:double">var x, y;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;
+if( x >= 11.1)&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;
+{&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;
+    y = 1;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;
+}else{&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;
+    y = 0;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;
 }</relation>
 <relation id="e6f457a0-6ecb-4123-95f9-83c23f7df8fa" shortName="Ограничение_неотрицательные_значения" inObj="x:double" relationType="constr" outObj="flag:double">if (x>=0) {flag = true;} else {flag = false;}</relation>
-<relation id="ecd320a8-6b0d-465a-abec-c4bded527b1d" shortName="Definition_diagnosis_name" inObj="x3:double;x1:double;x2:double" relationType="prog" outObj="y:string">var x1, x2, x3, y;&#xd;&#xd;&#xd;&#xd;
-if(x1 == 1){&#xd;&#xd;&#xd;&#xd;
-    y = 'Сахарный диабет 1-го типа';&#xd;&#xd;&#xd;&#xd;
-} else if(x2 == 1){&#xd;&#xd;&#xd;&#xd;
-    y = 'Сахарный диабет 2-го типа';&#xd;&#xd;&#xd;&#xd;
-} else if(x3 == 1){&#xd;&#xd;&#xd;&#xd;
-    y = 'Нет сахарного диабета 1-го или 2-го типа';&#xd;&#xd;&#xd;&#xd;
+<relation id="ecd320a8-6b0d-465a-abec-c4bded527b1d" shortName="Definition_diagnosis_name" inObj="x3:double;x1:double;x2:double" relationType="prog" outObj="y:string">var x1, x2, x3, y;
+if(x1 == 1){
+    y = 'Type 1 diabetes mellitus';
+} else if(x2 == 1){
+    y = 'Type 2 diabetes mellitus';
+} else if(x3 == 1){
+    y = 'No Type 1 and Type 2 diabetes mellitus';
 }</relation>
-<relation id="eee85553-77a5-426d-ac6f-b8ac4af456b1" shortName="Definition_criterior_installation_MD_glucose_blood_inflush" inObj="x:double" relationType="prog" outObj="y:double">var x, y;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;
-if( x >= 6.1 )&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;
-{&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;
-    y = 1;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;
-} else {&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;
-    y = 0;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;
+<relation id="eee85553-77a5-426d-ac6f-b8ac4af456b1" shortName="Definition_criterior_installation_MD_glucose_blood_inflush" inObj="x:double" relationType="prog" outObj="y:double">var x, y;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;
+if( x >= 6.1 )&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;
+{&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;
+    y = 1;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;
+} else {&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;
+    y = 0;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;
 }</relation>
 </relations>
 </model>

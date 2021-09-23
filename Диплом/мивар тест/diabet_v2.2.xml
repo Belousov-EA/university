@@ -5,17 +5,16 @@
 <rule id="2cc94f1b-11f9-4059-a562-57a7facac8ae" shortName="Определение_клинической_картины_СД1" relation="ab9059c4-76ee-40bf-92f8-a9c3a6cfd86b" resultId="y:0d4613d1-e780-464f-8b36-7ba8db6f9249" initId="x3:1f829d9d-6321-46d2-b5f4-166bc20c4ed4;x1:df1148b7-832c-4d16-ad19-1d4dcb065d92;x4:499849d4-71c2-4669-87c5-a08c88c169e2;x2:ece80bcd-7d14-435e-b6c1-a1bf5c22814f" description="Если есть родственники с СД1 и/или если была перенесена вирусная инфекция и/или стресс и/или перенесена перегрузка легкоусвояемыми углеводами (любые два), то имеется клиническая картина СД1"/>
 <rule id="3e4750ff-c214-460d-beb1-52d14f8a4f99" shortName="Критерии_установления_СД_и_аутоантитела_СД1" relation="32ed77c2-13d4-4bde-a4da-cbc83f0c2802" resultId="y:b191d00d-c04e-407f-a7c8-137730e47317" initId="x1:8f9f9b3c-1b4a-40ae-a5ba-84651b6384a6;x2:75502fbd-739d-4d09-9e43-226e92da133e" description="Если есть критерии установления СД и есть аутоантитела СД1, то СД1"/>
 <rule id="44322a60-931c-4f83-b380-ab1fa4eb5ebf" shortName="Критерии_установления_СД_и_пониженный_уровень_С_пептида" relation="71b9a69d-5c6c-48a3-bf46-0fa7c6b0c6c2" resultId="y:b191d00d-c04e-407f-a7c8-137730e47317" initId="x1:8f9f9b3c-1b4a-40ae-a5ba-84651b6384a6;x2:ea20809f-e0e9-494c-95e5-831c761244ec" description="Если критерии установления СД и пониженный уровень С-пептида, то СД1"/>
-<rule id="46556efb-dc78-4bd1-8dd6-226a944df8ce" shortName="Критерии_установления_СД_и_клиническая_картина_СД2" relation="8376eeae-9ea6-4c4a-9a64-2ab2d2cb3c8f" resultId="y2:106aaee5-a103-4cd5-a65b-aad34dfb6110;y:c37f17d1-945c-46b9-bbc8-09fa1ef91c33" initId="x5:5caca4b2-ec29-4f3a-847c-0c3f039937d8;x3:0d4613d1-e780-464f-8b36-7ba8db6f9249;x1:8f9f9b3c-1b4a-40ae-a5ba-84651b6384a6;x4:bd75a1af-57ae-4822-89d2-c00ad7ab024c;x2:8dc1767a-02e0-4629-8ce3-c56945298281" description="Если критерии установления СД и клиническая картина СД2 и нет клинической картины СД1, то СД2"/>
 <rule id="4a99f66a-f3aa-42b9-9816-1ea40b45ad5b" shortName="Определение_избытка_массы_тела" relation="9cb35b2e-53dc-437b-9718-de81f74c6d43" resultId="y:e12aede2-9e5f-40d2-86d7-10bfed60108f" initId="height:ee4c5035-f122-459b-b5f3-42cade41715e;weight:223210df-a274-4dcf-b251-e6e9f376e5eb;age:13a38e7c-706c-4f9b-9fec-1b6b8429317c" description="Если рост не соответствует росту, то наличие избытка массы тела"/>
 <rule id="6c4dc5df-9682-49b3-bcc5-b05fb87bf770" shortName="Определение_классических_симптомов" relation="914423aa-e345-4c05-92f8-7f7abe88762f" resultId="y:6b173ed5-5289-422e-a990-79cbc998dc61" initId="x5:0a059404-115a-4261-ae36-973f66efa0eb;x3:f127f04b-9b1c-44ea-afac-08f22135c20d;x7:44f9610c-f9f8-404d-ac90-d29462fe562f;x8:380df6b2-4435-402b-99bf-735fb762faec;x1:205a45b4-42b5-4842-9d67-8a53cee10b50;x6:ccede1ee-d7eb-4694-b228-5ed65b71ee42;x9:aedf7d2f-95ed-4267-b4cb-63f11c934f53;x4:9e4d61d7-24e9-4f7e-97d1-0b4bf13c10ae;x2:8853d6a6-fabc-4d99-b583-cddb3ab97b28" description="Если есть жажда или запах ацетона в выдыхаемом воздухе или кожный зуд или учащенное мочеиспускание или плохое заживление ран или фурункулез или кандидоз или резкое снижение массы тела или повышенный аппетит (любые три), то имеются классические симптомы СД"/>
 <rule id="6e0fb927-6e1e-4a01-943b-5d3aca852b2a" shortName="Отсутствие_аутоантител_СД1_и_критерии_установления_СД" relation="d66e71ca-2230-4d7b-95f4-a5efb68b35a1" resultId="y:c37f17d1-945c-46b9-bbc8-09fa1ef91c33" initId="x1:75502fbd-739d-4d09-9e43-226e92da133e;x2:8f9f9b3c-1b4a-40ae-a5ba-84651b6384a6" description="Если нет аутоантител СД1 и есть критерии установления СД, то СД2"/>
 <rule id="b893d35b-91bd-47f1-b351-cb1bf658512f" shortName="Определение_сообщения_о_невозможности_установить_вид_сахарного_диабета" relation="05215ba3-c32a-42d4-8f73-46b9de3f2402" resultId="y:106aaee5-a103-4cd5-a65b-aad34dfb6110" initId="x3:bd75a1af-57ae-4822-89d2-c00ad7ab024c;x1:0d4613d1-e780-464f-8b36-7ba8db6f9249;x4:5caca4b2-ec29-4f3a-847c-0c3f039937d8;x2:8dc1767a-02e0-4629-8ce3-c56945298281" description="Если имеется клиническая картина СД1 и клиническая картина СД2 и отсутствует анализ уровня С-пептида и отсутствует анализ аутоантител СД1, то необходимо измерить уровень С-пептида или проверить наличие аутоантител СД1"/>
 <rule id="d734506d-72cb-4646-a297-c3b99ec3e828" shortName="Определение_критериев_установления_СД_два_измерения" relation="f5daad20-6cd3-4f1c-bb27-4b5aaa2123f4" resultId="y:8f9f9b3c-1b4a-40ae-a5ba-84651b6384a6" initId="x3:6b173ed5-5289-422e-a990-79cbc998dc61;x1:71951e52-9e6f-4e72-b9f3-9dc856ed6d79;x2:755fbd3f-d392-47ee-9db0-fac4d2c47cb2" description="Если имеется повышенный сахар во время первого измерения и повышенный сахар во время второго измерения и имеются классические симптомы (любые 2), то имеются критерии установления СД"/>
 <rule id="e3a32f05-9c2a-4f19-9b12-a499fcb467db" shortName="Определение_клинической_картины_СД2" relation="25d2cacd-c91b-4ded-84a4-0c595e1d2000" resultId="y:8dc1767a-02e0-4629-8ce3-c56945298281" initId="x3:b0391699-2118-4ab3-b407-7794e277822c;x1:e12aede2-9e5f-40d2-86d7-10bfed60108f;x4:13a38e7c-706c-4f9b-9fec-1b6b8429317c;x2:b4f1fd82-69bb-44d8-8aa5-2b2732c8105f" description="Если имеется избыток массы тела и/или родственники с СД2 и/или середина пубертатного возраста и/или возраст > 40 (любые два), то имеется клиническая картина СД2"/>
-<rule id="e85e81f9-ed59-4685-9f9b-c2006fe321a5" shortName="Определение_критериев_установления_СД" relation="be3105cd-5f6e-4bc1-bdf5-46ab52b37a9c" resultId="y2:106aaee5-a103-4cd5-a65b-aad34dfb6110;y:8f9f9b3c-1b4a-40ae-a5ba-84651b6384a6" initId="x3:5b68632c-2e67-4249-9097-8133520a32f2;x1:6b173ed5-5289-422e-a990-79cbc998dc61;x2:71951e52-9e6f-4e72-b9f3-9dc856ed6d79" description="Если имеются повышеннй сахар во время первого  и классические симптомы СД, то имеются критерии установления СД"/>
+<rule id="e85e81f9-ed59-4685-9f9b-c2006fe321a5" shortName="Определение_критериев_установления_СД" relation="be3105cd-5f6e-4bc1-bdf5-46ab52b37a9c" resultId="y2:106aaee5-a103-4cd5-a65b-aad34dfb6110;y:8f9f9b3c-1b4a-40ae-a5ba-84651b6384a6" initId="x3:5b68632c-2e67-4249-9097-8133520a32f2;x1:6b173ed5-5289-422e-a990-79cbc998dc61;x2:71951e52-9e6f-4e72-b9f3-9dc856ed6d79" description="Если имеются повышеннй сахар во время первого измерения сахара и классические симптомы СД, то имеются критерии установления СД"/>
 <rule id="eb0900f0-c50c-47af-9c35-9625c241c19b" shortName="Критерии_установления_СД_и_повышенный_уровень_С_пептида" relation="71b9a69d-5c6c-48a3-bf46-0fa7c6b0c6c2" resultId="y:c37f17d1-945c-46b9-bbc8-09fa1ef91c33" initId="x1:8f9f9b3c-1b4a-40ae-a5ba-84651b6384a6;x2:25186d48-e41c-498f-901f-4dffa2067b74" description="Если критерии установления СД и повышенный уровень С-пептида, то СД2"/>
 <rule id="f1dcbdde-6ccf-4614-8f14-2a9323a2d4b0" shortName="Определение_пубертатного_возраста" relation="ceefa6b5-3a50-4efd-8da1-c044b28d653f" resultId="y:b0391699-2118-4ab3-b407-7794e277822c" initId="sex:5ef29075-3174-4cf4-a45a-ac30041b9148;age:13a38e7c-706c-4f9b-9fec-1b6b8429317c" description="Если пол женский и возраст от 9 до 16 или пол мужской и возраст от 11 до 19, то середина пубертатного возраста"/>
-<rule id="f5bc51d8-5ed7-49f9-b4c3-7fbac1b7523e" shortName="Критерии_установления_СД_и_клиническая_картина_СД1" relation="8376eeae-9ea6-4c4a-9a64-2ab2d2cb3c8f" resultId="y2:106aaee5-a103-4cd5-a65b-aad34dfb6110;y:b191d00d-c04e-407f-a7c8-137730e47317" initId="x5:5caca4b2-ec29-4f3a-847c-0c3f039937d8;x3:8dc1767a-02e0-4629-8ce3-c56945298281;x1:8f9f9b3c-1b4a-40ae-a5ba-84651b6384a6;x4:bd75a1af-57ae-4822-89d2-c00ad7ab024c;x2:0d4613d1-e780-464f-8b36-7ba8db6f9249" description="Если критерии установления СД и клиническая картина СД1 и нет клинической картины СД2, то СД1"/>
+<rule id="f5bc51d8-5ed7-49f9-b4c3-7fbac1b7523e" shortName="Критерии_установления_СД_и_клиническая_картина_СД1" relation="8376eeae-9ea6-4c4a-9a64-2ab2d2cb3c8f" resultId="y2:106aaee5-a103-4cd5-a65b-aad34dfb6110;y:b191d00d-c04e-407f-a7c8-137730e47317;y3:c37f17d1-945c-46b9-bbc8-09fa1ef91c33" initId="x5:5caca4b2-ec29-4f3a-847c-0c3f039937d8;x3:8dc1767a-02e0-4629-8ce3-c56945298281;x1:8f9f9b3c-1b4a-40ae-a5ba-84651b6384a6;x4:bd75a1af-57ae-4822-89d2-c00ad7ab024c;x2:0d4613d1-e780-464f-8b36-7ba8db6f9249" description="Если критерии установления СД и клиническая картина СД1 и нет клинической картины СД2, то СД1. Если критерии установления СД и клиническая картина СД2 и нет клинической картины СД1, то СД2. Если клиническая картина СД1 и СД2, то необходимо провести дополнительные исследования."/>
 </rules>
 <constraints/>
 <classes>
@@ -239,173 +238,187 @@
 </classes>
 </class>
 <relations>
-<relation id="05215ba3-c32a-42d4-8f73-46b9de3f2402" shortName="Определение_сообщения_о_невозможности_установить_вид_сахарного_диабета" inObj="x3:double;x1:double;x4:double;x2:double" relationType="prog" outObj="y:string">var x1, x2, x3, x4, y;&#xd;&#xd;&#xd;
-if( (x1 == 1) &amp;&amp; (x2 == 1) ){&#xd;&#xd;&#xd;
-    y = "Необходимо измерить уровень С-пептида или проверить наличие аутоантител СД1";&#xd;&#xd;&#xd;
+<relation id="05215ba3-c32a-42d4-8f73-46b9de3f2402" shortName="Определение_сообщения_о_невозможности_установить_вид_сахарного_диабета" inObj="x3:double;x1:double;x4:double;x2:double" relationType="prog" outObj="y:string">var x1, x2, x3, x4, y;&#xd;&#xd;&#xd;&#xd;&#xd;
+if( (x1 == 1) &amp;&amp; (x2 == 1) ){&#xd;&#xd;&#xd;&#xd;&#xd;
+    y = "Необходимо измерить уровень С-пептида или проверить наличие аутоантител СД1";&#xd;&#xd;&#xd;&#xd;&#xd;
 }</relation>
 <relation id="08287f48-ce02-4c28-8a26-7dae5ec90e3b" shortName="Пересчет_из_мг_дл_в_ммоль_л" inObj="x:double" relationType="simple" outObj="y:double">y = x / 18.2</relation>
-<relation id="1a760161-b305-401c-80ac-aa493c7d19de" shortName="Определение_повышенного_сахара_гликированный_гемоглобин_крови" inObj="x:double" relationType="prog" outObj="y:double">var x,  y;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;
-if( x >= 6.5 ){&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;
-y = 1;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;
-} else {&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;
-y = 0;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;
+<relation id="1a760161-b305-401c-80ac-aa493c7d19de" shortName="Определение_повышенного_сахара_гликированный_гемоглобин_крови" inObj="x:double" relationType="prog" outObj="y:double">var x,  y;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;
+if( x >= 6.5 ){&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;
+y = 1;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;
+} else {&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;
+y = 0;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;
 }</relation>
 <relation id="2425c77f-4dac-4ed9-8026-cfd047959760" shortName="Ограничение_положительные_значения" inObj="x:double" relationType="constr" outObj="flag:double">if (x>0) {flag = true;} else {flag = false;}</relation>
-<relation id="25d2cacd-c91b-4ded-84a4-0c595e1d2000" shortName="Определение_клинической_картины_СД2" inObj="x3:double;x1:double;x4:double;x2:double" relationType="prog" outObj="y:double">var x1, x2, x3, x4;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;
-if( x1 &amp;&amp; x2 || x1 &amp;&amp; x3 || x1 &amp;&amp; (x4>40) || x2 &amp;&amp; x3 || x2 &amp;&amp; (x4>40) || x3 &amp;&amp; (x4>40) ){&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;
-y = 1;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;
-}else{&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;
-y = 0;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;
+<relation id="25d2cacd-c91b-4ded-84a4-0c595e1d2000" shortName="Определение_клинической_картины_СД2" inObj="x3:double;x1:double;x4:double;x2:double" relationType="prog" outObj="y:double">var x1, x2, x3, x4;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;
+if( x1 &amp;&amp; x2 || x1 &amp;&amp; x3 || x1 &amp;&amp; (x4>40) || x2 &amp;&amp; x3 || x2 &amp;&amp; (x4>40) || x3 &amp;&amp; (x4>40) ){&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;
+y = 1;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;
+}else{&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;
+y = 0;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;
 }</relation>
-<relation id="2b8ee0c3-f3f5-4241-aaeb-23c9b443c1a8" shortName="Определение_повышенного_сахара_глюкоза_плазмы_крови_натощак" inObj="x:double" relationType="prog" outObj="y:double">var x, y;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;
-if( x >= 7.0 )&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;
-{&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;
+<relation id="2b8ee0c3-f3f5-4241-aaeb-23c9b443c1a8" shortName="Определение_повышенного_сахара_глюкоза_плазмы_крови_натощак" inObj="x:double" relationType="prog" outObj="y:double">var x, y;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;
+if( x >= 7.0 )&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;
+{&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;
+    y = 1;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;
+} else {&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;
+    y = 0;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;
+}</relation>
+<relation id="32ed77c2-13d4-4bde-a4da-cbc83f0c2802" shortName="Критерии_установления_СД_и_аутоантитела_СД1" inObj="x1:double;x2:double" relationType="prog" outObj="y:double">var x1, x2, y;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;
+if((x1 == 1) &amp;&amp; (x2 == 1)){&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;
     y = 1;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;
 } else {&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;
     y = 0;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;
 }</relation>
-<relation id="32ed77c2-13d4-4bde-a4da-cbc83f0c2802" shortName="Критерии_установления_СД_и_аутоантитела_СД1" inObj="x1:double;x2:double" relationType="prog" outObj="y:double">var x1, x2, y;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;
-if((x1 == 1) &amp;&amp; (x2 == 1)){&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;
-    y = 1;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;
-} else {&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;
-    y = 0;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;
-}</relation>
 <relation id="5548643d-fc56-4ac7-9920-f77d05a6b836" shortName="Ограничение_пол" inObj="x:string" relationType="constr" outObj="flag:double">if (x=='мужской' || x == 'женский') {flag = true;} else {flag = false;}</relation>
-<relation id="5fee2f6d-5938-4216-b3ef-91caf484fb59" shortName="Определение_повышенного_уровня_С_пептида" inObj="x:double" relationType="prog" outObj="y:double">var x, y;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;
-if( x > 4.4 ) {&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;
-    y = 1;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;
-} else {&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;
-    y = 0;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;
+<relation id="5fee2f6d-5938-4216-b3ef-91caf484fb59" shortName="Определение_повышенного_уровня_С_пептида" inObj="x:double" relationType="prog" outObj="y:double">var x, y;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;
+if( x > 4.4 ) {&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;
+    y = 1;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;
+} else {&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;
+    y = 0;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;
 }</relation>
-<relation id="71b9a69d-5c6c-48a3-bf46-0fa7c6b0c6c2" shortName="Критерии_установления_СД_и_уровень_С_пептида" inObj="x1:double;x2:double" relationType="prog" outObj="y:double">var x1, x2, y;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;
-if((x1 == 1)&amp;&amp;(x2 == 1)){&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;
-    y = 1;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;
-} else {&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;
-    y = 0;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;
+<relation id="71b9a69d-5c6c-48a3-bf46-0fa7c6b0c6c2" shortName="Критерии_установления_СД_и_уровень_С_пептида" inObj="x1:double;x2:double" relationType="prog" outObj="y:double">var x1, x2, y;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;
+if((x1 == 1)&amp;&amp;(x2 == 1)){&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;
+    y = 1;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;
+} else {&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;
+    y = 0;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;
 }</relation>
-<relation id="8376eeae-9ea6-4c4a-9a64-2ab2d2cb3c8f" shortName="Критерии_установления_СД_и_клиническая_картина" inObj="x5:double;x3:double;x1:double;x4:double;x2:double" relationType="prog" outObj="y2:string;y:double">var x1, x2, x3, x4, x5, y, y2;&#xd;&#xd;&#xd;
-if( (x1 == 1) &amp;&amp; (x2 == 1) &amp;&amp; (x3 == 0) ){&#xd;&#xd;&#xd;
-    y = 1;&#xd;&#xd;&#xd;
-} else {&#xd;&#xd;&#xd;
-    y = 0;&#xd;&#xd;&#xd;
-}&#xd;&#xd;&#xd;
-&#xd;&#xd;&#xd;
-if( (x2 == 1)&amp;&amp;(x3==1) ){&#xd;&#xd;&#xd;
-    y2 = "Необходимо провести дополнительное исследование на наличие аутоантител СД1 или уровня С-пептида";&#xd;&#xd;&#xd;
+<relation id="8376eeae-9ea6-4c4a-9a64-2ab2d2cb3c8f" shortName="Критерии_установления_СД_и_клиническая_картина" inObj="x5:double;x3:double;x1:double;x4:double;x2:double" relationType="prog" outObj="y2:string;y:double;y3:double">var x1, x2, x3, x4, x5, y, y2, y3;
+if( (x1 == 1) &amp;&amp; (x2 == 1) &amp;&amp; (x3 == 0) ){
+    y = 1;
+    y3 = 0;
+} else if( (x1 == 0) &amp;&amp; (x2 == 1) &amp;&amp; (x3 == 1) ){
+    y = 0;
+    y3 = 1;
+}
+if( (x2 == 1)&amp;&amp;(x3==1) ){
+    y = 0;
+    y3 = 0;
+    y2 = "Необходимо провести дополнительное исследование на наличие аутоантител СД1 или уровня С-пептида";
 }</relation>
 <relation id="8450f236-d78d-4f3a-af82-4dcac7782c9d" shortName="Ограничение_проценты" inObj="x:double" relationType="constr" outObj="flag:double">if (x >= 0 &amp;&amp; x &lt;= 100) {flag = true;} else {flag = false;}</relation>
 <relation id="8ac8a004-9780-488d-8fda-c0fcb1533faa" shortName="Ограничение_bool" inObj="x:double" relationType="constr" outObj="flag:double">if (x == 0 || x == 1) {flag = true;} else {flag = false;}</relation>
-<relation id="914423aa-e345-4c05-92f8-7f7abe88762f" shortName="Определение_классических_симптомов" inObj="x5:double;x3:double;x7:double;x8:double;x1:double;x6:double;x9:double;x4:double;x2:double" relationType="prog" outObj="y:double">var x1, x2, x3, x4, x5, x6, x7, x8, x9, y, count;&#xd;
-count = 0&#xd;
-if(x1==1){count+= 1}&#xd;
-if(x2==1){count+=1}&#xd;
-if(x3==1){count+=1}&#xd;
-if(x4==1){count+=1}&#xd;
-if(x5==1){count+=1}&#xd;
-if(x6==1){count+=1}&#xd;
-if(x7==1){count+=1}&#xd;
-if(x8==1){count+=1}&#xd;
-if(x9==1){count+=1}&#xd;
-if( count >= 3 ){&#xd;
-    y = 1;&#xd;
-} else {&#xd;
-    y = 0;&#xd;
-}</relation>
-<relation id="9cb35b2e-53dc-437b-9718-de81f74c6d43" shortName="Определение_избытка_массы_тела" inObj="height:double;weight:double;age:double" relationType="prog" outObj="y:double">var height, weight, age, y;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;
-if( weight / ( height * height ) >= 25)&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;
-{&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;
-y = 1;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;
-}else&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;
-{&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;
-y = 0;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;
-}&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;
-</relation>
-<relation id="ab9059c4-76ee-40bf-92f8-a9c3a6cfd86b" shortName="Определение_клинической_картины_СД1" inObj="x3:double;x1:double;x4:double;x2:double" relationType="prog" outObj="y:double">var x1, x2, x3, x4, y;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;
-if( x1 &amp;&amp; x2 || x1 &amp;&amp; x3 || x1 &amp;&amp; x4 || x2 &amp;&amp; x3 || x2 &amp;&amp; x4 ||x3 &amp;&amp; x4 ){&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;
-    y = 1;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;
-}else{&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;
-    y = 0;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;
-}</relation>
-<relation id="abc7651e-f02e-4395-b72a-0292143031e4" shortName="Определение_повышенного_сахара_глюкоза" inObj="x1:double" relationType="prog" outObj="y:double">var x1, y;&#xd;&#xd;&#xd;
-if (x1 >=11.1) {&#xd;&#xd;&#xd;
+<relation id="914423aa-e345-4c05-92f8-7f7abe88762f" shortName="Определение_классических_симптомов" inObj="x5:double;x3:double;x7:double;x8:double;x1:double;x6:double;x9:double;x4:double;x2:double" relationType="prog" outObj="y:double">var x1, x2, x3, x4, x5, x6, x7, x8, x9, y, count;&#xd;&#xd;&#xd;
+count = 0&#xd;&#xd;&#xd;
+if(x1==1){count+= 1}&#xd;&#xd;&#xd;
+if(x2==1){count+=1}&#xd;&#xd;&#xd;
+if(x3==1){count+=1}&#xd;&#xd;&#xd;
+if(x4==1){count+=1}&#xd;&#xd;&#xd;
+if(x5==1){count+=1}&#xd;&#xd;&#xd;
+if(x6==1){count+=1}&#xd;&#xd;&#xd;
+if(x7==1){count+=1}&#xd;&#xd;&#xd;
+if(x8==1){count+=1}&#xd;&#xd;&#xd;
+if(x9==1){count+=1}&#xd;&#xd;&#xd;
+if( count >= 3 ){&#xd;&#xd;&#xd;
     y = 1;&#xd;&#xd;&#xd;
 } else {&#xd;&#xd;&#xd;
     y = 0;&#xd;&#xd;&#xd;
 }</relation>
-<relation id="bb2cc9ff-b25d-471a-9422-163ea5c430bb" shortName="Определение_отсутствия_СД" inObj="x1:double;x2:double" relationType="prog" outObj="y:double">var x1, x2, y;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;
-if( (x1 == 0) &amp;&amp; (x2 == 0) ){&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;
-    y = 1;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;
-} else {&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;
-    y = 0;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;
+<relation id="9cb35b2e-53dc-437b-9718-de81f74c6d43" shortName="Определение_избытка_массы_тела" inObj="height:double;weight:double;age:double" relationType="prog" outObj="y:double">var height, weight, age, y;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;
+if( weight / ( height * height ) >= 25)&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;
+{&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;
+y = 1;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;
+}else&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;
+{&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;
+y = 0;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;
+}&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;
+</relation>
+<relation id="ab9059c4-76ee-40bf-92f8-a9c3a6cfd86b" shortName="Определение_клинической_картины_СД1" inObj="x3:double;x1:double;x4:double;x2:double" relationType="prog" outObj="y:double">var x1, x2, x3, x4, y;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;
+if( x1 &amp;&amp; x2 || x1 &amp;&amp; x3 || x1 &amp;&amp; x4 || x2 &amp;&amp; x3 || x2 &amp;&amp; x4 ||x3 &amp;&amp; x4 ){&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;
+    y = 1;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;
+}else{&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;
+    y = 0;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;
+}</relation>
+<relation id="abc7651e-f02e-4395-b72a-0292143031e4" shortName="Определение_повышенного_сахара_глюкоза" inObj="x1:double" relationType="prog" outObj="y:double">var x1, y;&#xd;&#xd;&#xd;&#xd;&#xd;
+if (x1 >=11.1) {&#xd;&#xd;&#xd;&#xd;&#xd;
+    y = 1;&#xd;&#xd;&#xd;&#xd;&#xd;
+} else {&#xd;&#xd;&#xd;&#xd;&#xd;
+    y = 0;&#xd;&#xd;&#xd;&#xd;&#xd;
+}</relation>
+<relation id="bb2cc9ff-b25d-471a-9422-163ea5c430bb" shortName="Определение_отсутствия_СД" inObj="x1:double;x2:double" relationType="prog" outObj="y:double">var x1, x2, y;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;
+if( (x1 == 0) &amp;&amp; (x2 == 0) ){&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;
+    y = 1;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;
+} else {&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;
+    y = 0;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;
 }</relation>
 <relation id="be3105cd-5f6e-4bc1-bdf5-46ab52b37a9c" shortName="Определение_критериев_установления_СД" inObj="x3:double;x1:double;x2:double" relationType="prog" outObj="y2:string;y:double">var x1, x2, x3, y, y2;
+y2 = 'Нет'
 if( (x1 == 1) &amp;&amp; (x2==1)){
+
     y = 1;
+
 }else{
+
     y = 0;
+
     if(x2 == 1){
+
         y2 = "Необходимо провести повторное измерение уровня сахара";
+
     }
+
 }
+
 </relation>
-<relation id="ceefa6b5-3a50-4efd-8da1-c044b28d653f" shortName="Определение_пубертатного_возраста" inObj="sex:string;age:double" relationType="prog" outObj="y:double">var sex, age, y;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;
-if( sex == 'мужской' ){&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;
-    if ((age > 11) &amp;&amp; (age &lt; 19))&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;
-    {&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;
-        y = 1;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;
-    }else{&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;
-        y = 0;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;
-    }&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;
-}&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;
-if( sex == 'женский' ){&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;
-    if ((age > 9) &amp;&amp; (age &lt; 16))&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;
-    {&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;
-        y = 1;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;
-    }else{&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;
-        y = 0;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;
-    }&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;
+<relation id="ceefa6b5-3a50-4efd-8da1-c044b28d653f" shortName="Определение_пубертатного_возраста" inObj="sex:string;age:double" relationType="prog" outObj="y:double">var sex, age, y;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;
+if( sex == 'мужской' ){&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;
+    if ((age > 11) &amp;&amp; (age &lt; 19))&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;
+    {&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;
+        y = 1;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;
+    }else{&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;
+        y = 0;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;
+    }&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;
+}&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;
+if( sex == 'женский' ){&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;
+    if ((age > 9) &amp;&amp; (age &lt; 16))&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;
+    {&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;
+        y = 1;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;
+    }else{&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;
+        y = 0;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;
+    }&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;
 }</relation>
-<relation id="d66e71ca-2230-4d7b-95f4-a5efb68b35a1" shortName="Отсутствие_аутоантител_СД1_и_критерии_установления_СД" inObj="x1:double;x2:double" relationType="prog" outObj="y:double">var x1, x2, y;
-if((x1 == 0) &amp;&amp; (x2 == 1) )
-{
-    y = 1;
-} else {
-    y = 0;
+<relation id="d66e71ca-2230-4d7b-95f4-a5efb68b35a1" shortName="Отсутствие_аутоантител_СД1_и_критерии_установления_СД" inObj="x1:double;x2:double" relationType="prog" outObj="y:double">var x1, x2, y;&#xd;&#xd;
+if((x1 == 0) &amp;&amp; (x2 == 1) )&#xd;&#xd;
+{&#xd;&#xd;
+    y = 1;&#xd;&#xd;
+} else {&#xd;&#xd;
+    y = 0;&#xd;&#xd;
 }</relation>
-<relation id="d72d6052-1e38-4fe5-8d6a-092a61eba20e" shortName="Определение_пониженного_уровня_С_пептида" inObj="x:double" relationType="prog" outObj="y:double">var x, y;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;
-if( x &lt; 1.1 ){&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;
-    y = 1;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;
-} else {&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;
-    y = 0;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;
-}</relation>
-<relation id="e046e773-75a5-42f9-86c3-ea7e1f025bb7" shortName="Определение_повышенного_сахара_ООГТТ" inObj="x:double" relationType="prog" outObj="y:double">var x, y;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;
-if( x >= 11.1)&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;
-{&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;
-    y = 1;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;
-}else{&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;
-    y = 0;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;
-}</relation>
-<relation id="e6f457a0-6ecb-4123-95f9-83c23f7df8fa" shortName="Ограничение_неотрицательные_значения" inObj="x:double" relationType="constr" outObj="flag:double">if (x>=0) {flag = true;} else {flag = false;}</relation>
-<relation id="ecd320a8-6b0d-465a-abec-c4bded527b1d" shortName="Определение_названия_диагноза" inObj="x3:double;x1:double;x2:double" relationType="prog" outObj="y:string">var x1, x2, x3, y;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;
-if(x1 == 1){&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;
-    y = 'Сахарный диабет 1-го типа';&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;
-} else if(x2 == 1){&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;
-    y = 'Сахарный диабет 2-го типа';&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;
-} else if(x3 == 1){&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;
-    y = 'Нет сахарного диабета 1-го или 2-го типа';&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;
-}</relation>
-<relation id="eee85553-77a5-426d-ac6f-b8ac4af456b1" shortName="Определение_повышенного_сахара_глюкоза_крови_натощак" inObj="x:double" relationType="prog" outObj="y:double">var x, y;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;
-if( x >= 6.1 )&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;
-{&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;
+<relation id="d72d6052-1e38-4fe5-8d6a-092a61eba20e" shortName="Определение_пониженного_уровня_С_пептида" inObj="x:double" relationType="prog" outObj="y:double">var x, y;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;
+if( x &lt; 1.1 ){&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;
     y = 1;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;
 } else {&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;
     y = 0;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;
 }</relation>
-<relation id="f5daad20-6cd3-4f1c-bb27-4b5aaa2123f4" shortName="Определение_критериев_установления_СД_два_измерения" inObj="x3:double;x1:double;x2:double" relationType="prog" outObj="y:double">var x1, x2, x3, y;&#xd;&#xd;&#xd;
-if( ((x1==1) &amp;&amp; ( x2==1)) || ((x2==1) &amp;&amp; ( x3==1)) ||((x1==1) &amp;&amp; ( x3==1)) ){&#xd;&#xd;&#xd;
-    y = 1;&#xd;&#xd;&#xd;
-} else {&#xd;&#xd;&#xd;
-    y = 0;&#xd;&#xd;&#xd;
+<relation id="e046e773-75a5-42f9-86c3-ea7e1f025bb7" shortName="Определение_повышенного_сахара_ООГТТ" inObj="x:double" relationType="prog" outObj="y:double">var x, y;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;
+if( x >= 11.1)&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;
+{&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;
+    y = 1;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;
+}else{&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;
+    y = 0;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;
+}</relation>
+<relation id="e6f457a0-6ecb-4123-95f9-83c23f7df8fa" shortName="Ограничение_неотрицательные_значения" inObj="x:double" relationType="constr" outObj="flag:double">if (x>=0) {flag = true;} else {flag = false;}</relation>
+<relation id="ecd320a8-6b0d-465a-abec-c4bded527b1d" shortName="Определение_названия_диагноза" inObj="x3:double;x1:double;x2:double" relationType="prog" outObj="y:string">var x1, x2, x3, y;
+if(x1 == 1){
+    y = 'Сахарный диабет 1-го типа';
+} else if(x2 == 1){
+    y = 'Сахарный диабет 2-го типа';
+} else if(x3 == 1){
+    y = 'Нет сахарного диабета 1-го или 2-го типа';
+}else{
+   y = 'Неизвестно';
+}</relation>
+<relation id="eee85553-77a5-426d-ac6f-b8ac4af456b1" shortName="Определение_повышенного_сахара_глюкоза_крови_натощак" inObj="x:double" relationType="prog" outObj="y:double">var x, y;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;
+if( x >= 6.1 )&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;
+{&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;
+    y = 1;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;
+} else {&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;
+    y = 0;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;&#xd;
+}</relation>
+<relation id="f5daad20-6cd3-4f1c-bb27-4b5aaa2123f4" shortName="Определение_критериев_установления_СД_два_измерения" inObj="x3:double;x1:double;x2:double" relationType="prog" outObj="y:double">var x1, x2, x3, y;&#xd;&#xd;&#xd;&#xd;&#xd;
+if( ((x1==1) &amp;&amp; ( x2==1)) || ((x2==1) &amp;&amp; ( x3==1)) ||((x1==1) &amp;&amp; ( x3==1)) ){&#xd;&#xd;&#xd;&#xd;&#xd;
+    y = 1;&#xd;&#xd;&#xd;&#xd;&#xd;
+} else {&#xd;&#xd;&#xd;&#xd;&#xd;
+    y = 0;&#xd;&#xd;&#xd;&#xd;&#xd;
 }</relation>
 </relations>
 </model>
